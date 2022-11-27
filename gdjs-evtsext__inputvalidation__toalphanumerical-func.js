@@ -1,34 +1,33 @@
 
-if (typeof gdjs.evtsExt__PanelSpriteButton__AnyTouchPressed !== "undefined") {
-  gdjs.evtsExt__PanelSpriteButton__AnyTouchPressed.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__InputValidation__ToAlphanumerical !== "undefined") {
+  gdjs.evtsExt__InputValidation__ToAlphanumerical.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__PanelSpriteButton__AnyTouchPressed = {};
+gdjs.evtsExt__InputValidation__ToAlphanumerical = {};
 
-gdjs.evtsExt__PanelSpriteButton__AnyTouchPressed.conditionTrue_0 = {val:false};
-gdjs.evtsExt__PanelSpriteButton__AnyTouchPressed.condition0IsTrue_0 = {val:false};
+gdjs.evtsExt__InputValidation__ToAlphanumerical.conditionTrue_0 = {val:false};
+gdjs.evtsExt__InputValidation__ToAlphanumerical.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__PanelSpriteButton__AnyTouchPressed.userFunc0x9ae738 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__InputValidation__ToAlphanumerical.userFunc0x9f6800 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
-eventsFunctionContext.returnValue = runtimeScene.getGame().getInputManager()._touches.firstKey() !== null;
-
+eventsFunctionContext.returnValue = eventsFunctionContext.getArgument("text").replace(/\W/g, '');
 };
-gdjs.evtsExt__PanelSpriteButton__AnyTouchPressed.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__InputValidation__ToAlphanumerical.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__PanelSpriteButton__AnyTouchPressed.userFunc0x9ae738(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__InputValidation__ToAlphanumerical.userFunc0x9f6800(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
 
 };
 
-gdjs.evtsExt__PanelSpriteButton__AnyTouchPressed.func = function(runtimeScene, parentEventsFunctionContext) {
+gdjs.evtsExt__InputValidation__ToAlphanumerical.func = function(runtimeScene, text, parentEventsFunctionContext) {
 var eventsFunctionContext = {
   _objectsMap: {
 },
@@ -73,15 +72,16 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
     return runtimeScene.getLayer(layerName);
   },
   getArgument: function(argName) {
+if (argName === "text") return text;
     return "";
   },
   getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
 };
 
 
-gdjs.evtsExt__PanelSpriteButton__AnyTouchPressed.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__InputValidation__ToAlphanumerical.eventsList0(runtimeScene, eventsFunctionContext);
 
-return !!eventsFunctionContext.returnValue;
+return "" + eventsFunctionContext.returnValue;
 }
 
-gdjs.evtsExt__PanelSpriteButton__AnyTouchPressed.registeredGdjsCallbacks = [];
+gdjs.evtsExt__InputValidation__ToAlphanumerical.registeredGdjsCallbacks = [];
