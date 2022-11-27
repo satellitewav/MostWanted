@@ -23,6 +23,8 @@ gdjs.InizioCode.condition0IsTrue_0.val = false;
 gdjs.InizioCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if (gdjs.InizioCode.condition0IsTrue_0.val) {
 {gdjs.evtsExt__Iframe__Create.func(runtimeScene, "home", "/endgame.html", gdjs.evtTools.window.getWindowInnerWidth(), gdjs.evtTools.window.getWindowInnerHeight() / 2, 0, gdjs.evtTools.window.getWindowInnerHeight() / 2, true, false, "", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{firebase.analytics();
+}{firebase.performance();
 }}
 
 }
@@ -47,6 +49,8 @@ gdjs.copyArray(runtimeScene.getObjects("usrn"), gdjs.InizioCode.GDusrnObjects1);
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Gioco", true);
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setString((( gdjs.InizioCode.GDusrnObjects1.length === 0 ) ? "" :gdjs.InizioCode.GDusrnObjects1[0].getString()));
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setString(gdjs.evtsExt__InputValidation__ToAlphanumerical.func(runtimeScene, gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
+}{gdjs.evtTools.firebaseTools.analytics.log("avvio da home", "");
+}{gdjs.evtTools.firebaseTools.performance.startTracer("durata partita");
 }}
 
 }
