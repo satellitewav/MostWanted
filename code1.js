@@ -23,6 +23,10 @@ gdjs.InizioCode.GDcambianomeObjects1= [];
 gdjs.InizioCode.GDcambianomeObjects2= [];
 gdjs.InizioCode.GDcambianomeObjects3= [];
 gdjs.InizioCode.GDcambianomeObjects4= [];
+gdjs.InizioCode.GDticketObjects1= [];
+gdjs.InizioCode.GDticketObjects2= [];
+gdjs.InizioCode.GDticketObjects3= [];
+gdjs.InizioCode.GDticketObjects4= [];
 
 gdjs.InizioCode.conditionTrue_0 = {val:false};
 gdjs.InizioCode.condition0IsTrue_0 = {val:false};
@@ -100,7 +104,7 @@ gdjs.InizioCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoole
 }
 
 
-};gdjs.InizioCode.asyncCallback9770156 = function (runtimeScene, asyncObjectsList) {
+};gdjs.InizioCode.asyncCallback9482084 = function (runtimeScene, asyncObjectsList) {
 
 { //Subevents
 gdjs.InizioCode.eventsList1(runtimeScene, asyncObjectsList);} //End of subevents
@@ -113,7 +117,7 @@ gdjs.InizioCode.eventsList2 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.InizioCode.asyncCallback9770156(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.InizioCode.asyncCallback9482084(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -134,8 +138,9 @@ gdjs.copyArray(runtimeScene.getObjects("Istruzioni"), gdjs.InizioCode.GDIstruzio
 gdjs.copyArray(runtimeScene.getObjects("bentornato"), gdjs.InizioCode.GDbentornatoObjects1);
 gdjs.copyArray(runtimeScene.getObjects("cambianome"), gdjs.InizioCode.GDcambianomeObjects1);
 gdjs.copyArray(runtimeScene.getObjects("logo"), gdjs.InizioCode.GDlogoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("ticket"), gdjs.InizioCode.GDticketObjects1);
 gdjs.copyArray(runtimeScene.getObjects("usrn"), gdjs.InizioCode.GDusrnObjects1);
-{gdjs.evtsExt__Iframe__Create.func(runtimeScene, "home", "/EdgeRunners/endgame.html", gdjs.evtTools.window.getWindowInnerWidth(), gdjs.evtTools.window.getWindowInnerHeight() / 2, 0, gdjs.evtTools.window.getWindowInnerHeight() / 2, true, false, "", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+{gdjs.evtsExt__Iframe__Create.func(runtimeScene, "home", "/EdgeRunners/endgame.html", gdjs.evtTools.window.getWindowInnerWidth(), (gdjs.evtTools.window.getWindowInnerHeight() / 2) - 60, 0, (gdjs.evtTools.window.getWindowInnerHeight() / 2) - 20, true, false, "", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }{firebase.analytics();
 }{firebase.performance();
 }{for(var i = 0, len = gdjs.InizioCode.GDusrnObjects1.length ;i < len;++i) {
@@ -156,6 +161,30 @@ gdjs.copyArray(runtimeScene.getObjects("usrn"), gdjs.InizioCode.GDusrnObjects1);
 }{for(var i = 0, len = gdjs.InizioCode.GDHOMEObjects1.length ;i < len;++i) {
     gdjs.InizioCode.GDHOMEObjects1[i].setCenterXInScene(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2);
 }
+}{for(var i = 0, len = gdjs.InizioCode.GDticketObjects1.length ;i < len;++i) {
+    gdjs.InizioCode.GDticketObjects1[i].setCenterXInScene(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("ticket"), gdjs.InizioCode.GDticketObjects1);
+
+gdjs.InizioCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.InizioCode.GDticketObjects1.length;i<l;++i) {
+    if ( gdjs.InizioCode.GDticketObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        gdjs.InizioCode.condition0IsTrue_0.val = true;
+        gdjs.InizioCode.GDticketObjects1[k] = gdjs.InizioCode.GDticketObjects1[i];
+        ++k;
+    }
+}
+gdjs.InizioCode.GDticketObjects1.length = k;}if (gdjs.InizioCode.condition0IsTrue_0.val) {
+{gdjs.evtTools.window.openURL("https://www.google.it", runtimeScene);
+}{gdjs.evtTools.firebaseTools.analytics.log("click su ticket", "");
 }}
 
 }
@@ -276,6 +305,10 @@ gdjs.InizioCode.GDcambianomeObjects1.length = 0;
 gdjs.InizioCode.GDcambianomeObjects2.length = 0;
 gdjs.InizioCode.GDcambianomeObjects3.length = 0;
 gdjs.InizioCode.GDcambianomeObjects4.length = 0;
+gdjs.InizioCode.GDticketObjects1.length = 0;
+gdjs.InizioCode.GDticketObjects2.length = 0;
+gdjs.InizioCode.GDticketObjects3.length = 0;
+gdjs.InizioCode.GDticketObjects4.length = 0;
 
 gdjs.InizioCode.eventsList3(runtimeScene);
 
