@@ -104,7 +104,7 @@ gdjs.InizioCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoole
 }
 
 
-};gdjs.InizioCode.asyncCallback9482084 = function (runtimeScene, asyncObjectsList) {
+};gdjs.InizioCode.asyncCallback10013452 = function (runtimeScene, asyncObjectsList) {
 
 { //Subevents
 gdjs.InizioCode.eventsList1(runtimeScene, asyncObjectsList);} //End of subevents
@@ -117,7 +117,7 @@ gdjs.InizioCode.eventsList2 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.InizioCode.asyncCallback9482084(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.InizioCode.asyncCallback10013452(runtimeScene, asyncObjectsList)));
 }
 }
 
