@@ -244,6 +244,7 @@ gdjs.GiocoCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegi
 }if (gdjs.GiocoCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "spawn");
 }{gdjs.evtTools.input.touchSimulateMouse(runtimeScene, false);
+}{gdjs.evtTools.storage.loadJSONFileFromStorage("Memoria");
 }}
 
 }
@@ -2477,6 +2478,9 @@ gdjs.GiocoCode.GDFireBurningObjects2.length = 0;
     gdjs.GiocoCode.GDTankObjects2[i].getBehavior("Pathfinding").setAcceleration(0);
 }
 }{gdjs.deviceVibration.startVibration(500);
+}{gdjs.evtTools.storage.writeNumberInJSONFile("Memoria", "record", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1)));
+}{gdjs.evtTools.storage.writeStringInJSONFile("Memoria", "nome", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)));
+}{gdjs.evtTools.storage.unloadJSONFile("Memoria");
 }}
 
 }
