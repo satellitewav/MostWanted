@@ -104,7 +104,7 @@ gdjs.InizioCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoole
 }
 
 
-};gdjs.InizioCode.asyncCallback10013452 = function (runtimeScene, asyncObjectsList) {
+};gdjs.InizioCode.asyncCallback10749372 = function (runtimeScene, asyncObjectsList) {
 
 { //Subevents
 gdjs.InizioCode.eventsList1(runtimeScene, asyncObjectsList);} //End of subevents
@@ -117,7 +117,7 @@ gdjs.InizioCode.eventsList2 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.InizioCode.asyncCallback10013452(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.InizioCode.asyncCallback10749372(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -164,7 +164,34 @@ gdjs.copyArray(runtimeScene.getObjects("usrn"), gdjs.InizioCode.GDusrnObjects1);
 }{for(var i = 0, len = gdjs.InizioCode.GDticketObjects1.length ;i < len;++i) {
     gdjs.InizioCode.GDticketObjects1[i].setCenterXInScene(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2);
 }
+}{for(var i = 0, len = gdjs.InizioCode.GDusrnObjects1.length ;i < len;++i) {
+    gdjs.InizioCode.GDusrnObjects1[i].setInputType("email");
+}
 }}
+
+}
+
+
+{
+
+
+gdjs.InizioCode.condition0IsTrue_0.val = false;
+{
+gdjs.InizioCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+}if (gdjs.InizioCode.condition0IsTrue_0.val) {
+}
+
+}
+
+
+{
+
+
+gdjs.InizioCode.condition0IsTrue_0.val = false;
+{
+gdjs.InizioCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+}if (gdjs.InizioCode.condition0IsTrue_0.val) {
+}
 
 }
 
@@ -183,8 +210,8 @@ for(var i = 0, k = 0, l = gdjs.InizioCode.GDticketObjects1.length;i<l;++i) {
     }
 }
 gdjs.InizioCode.GDticketObjects1.length = k;}if (gdjs.InizioCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.window.openURL("https://www.google.it", runtimeScene);
-}{gdjs.evtTools.firebaseTools.analytics.log("click su ticket", "");
+{gdjs.evtTools.firebaseTools.analytics.log("click su ticket", "");
+}{gdjs.evtsExt__URLTools__Redirect.func(runtimeScene, "https://www.google.it", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }}
 
 }
