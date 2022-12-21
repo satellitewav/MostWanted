@@ -1971,7 +1971,7 @@ gdjs.GiocoCode.GDPoliceObjects2.length = 0;
 
 {gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPoliceObjects2Objects, 250, 1350, "");
 }{for(var i = 0, len = gdjs.GiocoCode.GDPoliceObjects2.length ;i < len;++i) {
-    gdjs.GiocoCode.GDPoliceObjects2[i].setSize(125, 90);
+    gdjs.GiocoCode.GDPoliceObjects2[i].setSize(140, 100);
 }
 }{for(var i = 0, len = gdjs.GiocoCode.GDPoliceObjects2.length ;i < len;++i) {
     gdjs.GiocoCode.GDPoliceObjects2[i].setZOrder(1);
@@ -2297,7 +2297,7 @@ gdjs.GiocoCode.GDPoliceObjects1.length = 0;
     gdjs.GiocoCode.GDPoliceObjects1[i].setZOrder(2);
 }
 }{for(var i = 0, len = gdjs.GiocoCode.GDPoliceObjects1.length ;i < len;++i) {
-    gdjs.GiocoCode.GDPoliceObjects1[i].setSize(128, 96);
+    gdjs.GiocoCode.GDPoliceObjects1[i].setSize(140, 100);
 }
 }{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getVariables().getFromIndex(12), true);
 }}
