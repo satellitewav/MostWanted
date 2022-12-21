@@ -2795,6 +2795,7 @@ gdjs.GiocoCode.GDFireBurningObjects2.length = 0;
 }{gdjs.evtTools.storage.writeStringInJSONFile("Memoria", "nome", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)));
 }{gdjs.evtTools.storage.unloadJSONFile("Memoria");
 }{gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 1);
+}{gdjs.evtTools.sound.playSound(runtimeScene, "car_crash_effect.mp3", false, 75, 1);
 }}
 
 }
