@@ -191,14 +191,6 @@ gdjs.GiocoCode.GDbg1Objects1= [];
 gdjs.GiocoCode.GDbg1Objects2= [];
 gdjs.GiocoCode.GDbg1Objects3= [];
 gdjs.GiocoCode.GDbg1Objects4= [];
-gdjs.GiocoCode.GDfpsObjects1= [];
-gdjs.GiocoCode.GDfpsObjects2= [];
-gdjs.GiocoCode.GDfpsObjects3= [];
-gdjs.GiocoCode.GDfpsObjects4= [];
-gdjs.GiocoCode.GDsifpsObjects1= [];
-gdjs.GiocoCode.GDsifpsObjects2= [];
-gdjs.GiocoCode.GDsifpsObjects3= [];
-gdjs.GiocoCode.GDsifpsObjects4= [];
 
 gdjs.GiocoCode.conditionTrue_0 = {val:false};
 gdjs.GiocoCode.condition0IsTrue_0 = {val:false};
@@ -489,7 +481,6 @@ gdjs.copyArray(runtimeScene.getObjects("Star3"), gdjs.GiocoCode.GDStar3Objects2)
 gdjs.copyArray(runtimeScene.getObjects("SuvTan"), gdjs.GiocoCode.GDSuvTanObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Tank"), gdjs.GiocoCode.GDTankObjects2);
 gdjs.copyArray(runtimeScene.getObjects("best"), gdjs.GiocoCode.GDbestObjects2);
-gdjs.copyArray(runtimeScene.getObjects("fps"), gdjs.GiocoCode.GDfpsObjects2);
 gdjs.copyArray(runtimeScene.getObjects("punteggio"), gdjs.GiocoCode.GDpunteggioObjects2);
 gdjs.copyArray(runtimeScene.getObjects("testcolo"), gdjs.GiocoCode.GDtestcoloObjects2);
 gdjs.copyArray(runtimeScene.getObjects("vita1"), gdjs.GiocoCode.GDvita1Objects2);
@@ -572,9 +563,6 @@ gdjs.copyArray(runtimeScene.getObjects("vita3"), gdjs.GiocoCode.GDvita3Objects2)
 }
 }{for(var i = 0, len = gdjs.GiocoCode.GDvita3Objects2.length ;i < len;++i) {
     gdjs.GiocoCode.GDvita3Objects2[i].hide();
-}
-}{for(var i = 0, len = gdjs.GiocoCode.GDfpsObjects2.length ;i < len;++i) {
-    gdjs.GiocoCode.GDfpsObjects2[i].setString(gdjs.evtTools.common.toString(gdjs.evtsExt__FPS__FPS.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
 }
 }}
 
@@ -3053,14 +3041,6 @@ gdjs.GiocoCode.GDbg1Objects1.length = 0;
 gdjs.GiocoCode.GDbg1Objects2.length = 0;
 gdjs.GiocoCode.GDbg1Objects3.length = 0;
 gdjs.GiocoCode.GDbg1Objects4.length = 0;
-gdjs.GiocoCode.GDfpsObjects1.length = 0;
-gdjs.GiocoCode.GDfpsObjects2.length = 0;
-gdjs.GiocoCode.GDfpsObjects3.length = 0;
-gdjs.GiocoCode.GDfpsObjects4.length = 0;
-gdjs.GiocoCode.GDsifpsObjects1.length = 0;
-gdjs.GiocoCode.GDsifpsObjects2.length = 0;
-gdjs.GiocoCode.GDsifpsObjects3.length = 0;
-gdjs.GiocoCode.GDsifpsObjects4.length = 0;
 
 gdjs.GiocoCode.eventsList8(runtimeScene);
 
