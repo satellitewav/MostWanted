@@ -15,7 +15,7 @@ gdjs.evtsExt__Iframe__Delete.condition0IsTrue_1 = {val:false};
 gdjs.evtsExt__Iframe__Delete.condition1IsTrue_1 = {val:false};
 
 
-gdjs.evtsExt__Iframe__Delete.userFunc0x8e3f80 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Iframe__Delete.userFunc0x7d26c0 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 document.getElementById(eventsFunctionContext.getArgument("Name")).remove();
 };
@@ -24,7 +24,7 @@ gdjs.evtsExt__Iframe__Delete.eventsList0 = function(runtimeScene, eventsFunction
 {
 
 
-gdjs.evtsExt__Iframe__Delete.userFunc0x8e3f80(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Iframe__Delete.userFunc0x7d26c0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -37,7 +37,7 @@ gdjs.evtsExt__Iframe__Delete.userFunc0x8e3f80(runtimeScene, typeof eventsFunctio
 gdjs.evtsExt__Iframe__Delete.condition0IsTrue_0.val = false;
 {
 {gdjs.evtsExt__Iframe__Delete.conditionTrue_1 = gdjs.evtsExt__Iframe__Delete.condition0IsTrue_0;
-gdjs.evtsExt__Iframe__Delete.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(10466324);
+gdjs.evtsExt__Iframe__Delete.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(10818396);
 }
 }if (gdjs.evtsExt__Iframe__Delete.condition0IsTrue_0.val) {
 

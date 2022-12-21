@@ -11,17 +11,17 @@ gdjs.evtsExt__URLTools__Redirect.conditionTrue_0 = {val:false};
 gdjs.evtsExt__URLTools__Redirect.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__URLTools__Redirect.userFunc0x8e3f80 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__URLTools__Redirect.userFunc0x723248 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
-location.replace(eventsFunctionContext.getArgument("to"));
-
+window.location.href = eventsFunctionContext.getArgument("to");
+console.log("redirect");
 };
 gdjs.evtsExt__URLTools__Redirect.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__URLTools__Redirect.userFunc0x8e3f80(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__URLTools__Redirect.userFunc0x723248(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

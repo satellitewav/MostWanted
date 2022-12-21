@@ -27,6 +27,10 @@ gdjs.InizioCode.GDticketObjects1= [];
 gdjs.InizioCode.GDticketObjects2= [];
 gdjs.InizioCode.GDticketObjects3= [];
 gdjs.InizioCode.GDticketObjects4= [];
+gdjs.InizioCode.GDNewSpriteObjects1= [];
+gdjs.InizioCode.GDNewSpriteObjects2= [];
+gdjs.InizioCode.GDNewSpriteObjects3= [];
+gdjs.InizioCode.GDNewSpriteObjects4= [];
 
 gdjs.InizioCode.conditionTrue_0 = {val:false};
 gdjs.InizioCode.condition0IsTrue_0 = {val:false};
@@ -34,7 +38,7 @@ gdjs.InizioCode.condition1IsTrue_0 = {val:false};
 gdjs.InizioCode.condition2IsTrue_0 = {val:false};
 
 
-gdjs.InizioCode.asyncCallback8642468 = function (runtimeScene, asyncObjectsList) {
+gdjs.InizioCode.asyncCallback11124708 = function (runtimeScene, asyncObjectsList) {
 }
 gdjs.InizioCode.eventsList0 = function(runtimeScene) {
 
@@ -44,7 +48,7 @@ gdjs.InizioCode.eventsList0 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.InizioCode.asyncCallback8642468(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.InizioCode.asyncCallback11124708(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -75,7 +79,6 @@ gdjs.InizioCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoole
 }{runtimeScene.getVariables().getFromIndex(0).getChild("score").setNumber(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1)));
 }{gdjs.evtTools.firebaseTools.firestore.writeDocument("players", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)), runtimeScene.getVariables().getFromIndex(0), runtimeScene.getVariables().get("ok"));
 }{runtimeScene.getGame().getVariables().getFromIndex(3).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)));
-}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Gioco", true);
 }{gdjs.evtTools.storage.writeStringInJSONFile("Memoria", "nome", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)));
 }{gdjs.evtTools.storage.writeNumberInJSONFile("Memoria", "record", 0);
 }}
@@ -129,7 +132,6 @@ gdjs.InizioCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoole
 {runtimeScene.getGame().getVariables().getFromIndex(2).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("doc").getChild("data").getChild("name")));
 }{runtimeScene.getGame().getVariables().getFromIndex(3).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().get("doc").getChild("id")));
 }{runtimeScene.getGame().getVariables().getFromIndex(1).setNumber(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().get("doc").getChild("data").getChild("score")));
-}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Gioco", true);
 }}
 }
 }
@@ -137,8 +139,9 @@ gdjs.InizioCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoole
 }
 
 
-};gdjs.InizioCode.asyncCallback10751060 = function (runtimeScene, asyncObjectsList) {
-
+};gdjs.InizioCode.asyncCallback11128972 = function (runtimeScene, asyncObjectsList) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Gioco", true);
+}
 { //Subevents
 gdjs.InizioCode.eventsList2(runtimeScene, asyncObjectsList);} //End of subevents
 }
@@ -150,7 +153,7 @@ gdjs.InizioCode.eventsList3 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.InizioCode.asyncCallback10751060(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.InizioCode.asyncCallback11128972(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -277,7 +280,7 @@ gdjs.InizioCode.GDcambianomeObjects1.length = k;}if (gdjs.InizioCode.condition0I
 {gdjs.evtTools.storage.deleteElementFromJSONFile("Memoria", "nome");
 }{gdjs.evtTools.storage.deleteElementFromJSONFile("Memoria", "record");
 }{gdjs.evtTools.storage.clearJSONFile("Memoria");
-}{gdjs.evtsExt__URLTools__Reload.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{gdjs.evtsExt__URLTools__Function.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }}
 
 }
@@ -426,6 +429,10 @@ gdjs.InizioCode.GDticketObjects1.length = 0;
 gdjs.InizioCode.GDticketObjects2.length = 0;
 gdjs.InizioCode.GDticketObjects3.length = 0;
 gdjs.InizioCode.GDticketObjects4.length = 0;
+gdjs.InizioCode.GDNewSpriteObjects1.length = 0;
+gdjs.InizioCode.GDNewSpriteObjects2.length = 0;
+gdjs.InizioCode.GDNewSpriteObjects3.length = 0;
+gdjs.InizioCode.GDNewSpriteObjects4.length = 0;
 
 gdjs.InizioCode.eventsList4(runtimeScene);
 
