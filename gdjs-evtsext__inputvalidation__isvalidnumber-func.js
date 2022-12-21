@@ -11,7 +11,7 @@ gdjs.evtsExt__InputValidation__IsValidNumber.conditionTrue_0 = {val:false};
 gdjs.evtsExt__InputValidation__IsValidNumber.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__InputValidation__IsValidNumber.userFunc0xa470c8 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__InputValidation__IsValidNumber.userFunc0x9a0870 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 const num = eventsFunctionContext.getArgument("num");
 const n = /^-?\d+\.?\d*$/;
@@ -23,7 +23,7 @@ gdjs.evtsExt__InputValidation__IsValidNumber.eventsList0 = function(runtimeScene
 {
 
 
-gdjs.evtsExt__InputValidation__IsValidNumber.userFunc0xa470c8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__InputValidation__IsValidNumber.userFunc0x9a0870(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

@@ -11,7 +11,7 @@ gdjs.evtsExt__URLTools__ChangeURLQueryStringParameter.conditionTrue_0 = {val:fal
 gdjs.evtsExt__URLTools__ChangeURLQueryStringParameter.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__URLTools__ChangeURLQueryStringParameter.userFunc0x765850 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__URLTools__ChangeURLQueryStringParameter.userFunc0x7c2a78 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 const url = new URL(eventsFunctionContext.getArgument("URL"));
 url.searchParams.set(
@@ -26,7 +26,7 @@ gdjs.evtsExt__URLTools__ChangeURLQueryStringParameter.eventsList0 = function(run
 {
 
 
-gdjs.evtsExt__URLTools__ChangeURLQueryStringParameter.userFunc0x765850(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__URLTools__ChangeURLQueryStringParameter.userFunc0x7c2a78(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
