@@ -11,7 +11,7 @@ gdjs.evtsExt__URLTools__Function.conditionTrue_0 = {val:false};
 gdjs.evtsExt__URLTools__Function.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__URLTools__Function.userFunc0x768498 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__URLTools__Function.userFunc0xa470c8 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 console.log("Non fa niente");
 window.location.href = eventsFunctionContext.getArgument("to");
@@ -21,7 +21,7 @@ gdjs.evtsExt__URLTools__Function.eventsList0 = function(runtimeScene, eventsFunc
 {
 
 
-gdjs.evtsExt__URLTools__Function.userFunc0x768498(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__URLTools__Function.userFunc0xa470c8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
