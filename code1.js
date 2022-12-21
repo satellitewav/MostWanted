@@ -48,6 +48,7 @@ gdjs.InizioCode.conditionTrue_0 = {val:false};
 gdjs.InizioCode.condition0IsTrue_0 = {val:false};
 gdjs.InizioCode.condition1IsTrue_0 = {val:false};
 gdjs.InizioCode.condition2IsTrue_0 = {val:false};
+gdjs.InizioCode.condition3IsTrue_0 = {val:false};
 
 
 gdjs.InizioCode.asyncCallback11226020 = function (runtimeScene, asyncObjectsList) {
@@ -221,6 +222,7 @@ gdjs.copyArray(runtimeScene.getObjects("usrn"), gdjs.InizioCode.GDusrnObjects1);
 }{for(var i = 0, len = gdjs.InizioCode.GDcambianomeObjects1.length ;i < len;++i) {
     gdjs.InizioCode.GDcambianomeObjects1[i].setX(gdjs.InizioCode.GDcambianomeObjects1[i].getX() + (1000));
 }
+}{gdjs.evtTools.sound.preloadMusic(runtimeScene, "assets\\mOST WANTED.mp3");
 }}
 
 }
@@ -231,13 +233,18 @@ gdjs.copyArray(runtimeScene.getObjects("usrn"), gdjs.InizioCode.GDusrnObjects1);
 
 gdjs.InizioCode.condition0IsTrue_0.val = false;
 gdjs.InizioCode.condition1IsTrue_0.val = false;
+gdjs.InizioCode.condition2IsTrue_0.val = false;
 {
 gdjs.InizioCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if ( gdjs.InizioCode.condition0IsTrue_0.val ) {
 {
 gdjs.InizioCode.condition1IsTrue_0.val = gdjs.evtTools.storage.elementExistsInJSONFile("Memoria", "nome");
+}if ( gdjs.InizioCode.condition1IsTrue_0.val ) {
+{
+gdjs.InizioCode.condition2IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(2)) != 0;
 }}
-if (gdjs.InizioCode.condition1IsTrue_0.val) {
+}
+if (gdjs.InizioCode.condition2IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("Istruzioni"), gdjs.InizioCode.GDIstruzioniObjects1);
 gdjs.copyArray(runtimeScene.getObjects("bentornato"), gdjs.InizioCode.GDbentornatoObjects1);
 gdjs.copyArray(runtimeScene.getObjects("cambianome"), gdjs.InizioCode.GDcambianomeObjects1);
@@ -365,7 +372,10 @@ gdjs.InizioCode.GDGIOCAObjects1.length = k;}if ( gdjs.InizioCode.condition0IsTru
 gdjs.InizioCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)) == "";
 }}
 if (gdjs.InizioCode.condition1IsTrue_0.val) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Gioco", true);
+{gdjs.evtTools.storage.deleteElementFromJSONFile("Memoria", "nome");
+}{gdjs.evtTools.storage.deleteElementFromJSONFile("Memoria", "record");
+}{gdjs.evtTools.storage.clearJSONFile("Memoria");
+}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Gioco", true);
 }}
 
 }

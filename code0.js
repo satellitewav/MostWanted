@@ -273,6 +273,7 @@ gdjs.GiocoCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegi
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "spawn");
 }{gdjs.evtTools.input.touchSimulateMouse(runtimeScene, false);
 }{gdjs.evtTools.storage.loadJSONFileFromStorage("Memoria");
+}{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "assets\\mOST WANTED.mp3", 1, true, 100, 1);
 }}
 
 }
@@ -2793,6 +2794,7 @@ gdjs.GiocoCode.GDFireBurningObjects2.length = 0;
 }{gdjs.evtTools.storage.writeNumberInJSONFile("Memoria", "record", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1)));
 }{gdjs.evtTools.storage.writeStringInJSONFile("Memoria", "nome", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)));
 }{gdjs.evtTools.storage.unloadJSONFile("Memoria");
+}{gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 1);
 }}
 
 }
