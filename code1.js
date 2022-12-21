@@ -292,6 +292,7 @@ gdjs.InizioCode.GDcambianomeObjects1.length = k;}if (gdjs.InizioCode.condition0I
 {gdjs.evtTools.storage.deleteElementFromJSONFile("Memoria", "nome");
 }{gdjs.evtTools.storage.deleteElementFromJSONFile("Memoria", "record");
 }{gdjs.evtTools.storage.clearJSONFile("Memoria");
+}{gdjs.evtsExt__URLTools__Reload.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }}
 
 }
