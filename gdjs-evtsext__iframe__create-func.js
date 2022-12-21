@@ -15,7 +15,7 @@ gdjs.evtsExt__Iframe__Create.condition0IsTrue_1 = {val:false};
 gdjs.evtsExt__Iframe__Create.condition1IsTrue_1 = {val:false};
 
 
-gdjs.evtsExt__Iframe__Create.userFunc0x7c1640 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Iframe__Create.userFunc0x767648 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 const iframe = document.createElement("iframe");
 
@@ -42,7 +42,7 @@ gdjs.evtsExt__Iframe__Create.eventsList0 = function(runtimeScene, eventsFunction
 {
 
 
-gdjs.evtsExt__Iframe__Create.userFunc0x7c1640(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Iframe__Create.userFunc0x767648(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -55,7 +55,7 @@ gdjs.evtsExt__Iframe__Create.userFunc0x7c1640(runtimeScene, typeof eventsFunctio
 gdjs.evtsExt__Iframe__Create.condition0IsTrue_0.val = false;
 {
 {gdjs.evtsExt__Iframe__Create.conditionTrue_1 = gdjs.evtsExt__Iframe__Create.condition0IsTrue_0;
-gdjs.evtsExt__Iframe__Create.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(11031708);
+gdjs.evtsExt__Iframe__Create.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(13329924);
 }
 }if (gdjs.evtsExt__Iframe__Create.condition0IsTrue_0.val) {
 
