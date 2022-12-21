@@ -222,7 +222,7 @@ gdjs.copyArray(runtimeScene.getObjects("usrn"), gdjs.InizioCode.GDusrnObjects1);
 }{for(var i = 0, len = gdjs.InizioCode.GDcambianomeObjects1.length ;i < len;++i) {
     gdjs.InizioCode.GDcambianomeObjects1[i].setX(gdjs.InizioCode.GDcambianomeObjects1[i].getX() + (1000));
 }
-}{gdjs.evtTools.sound.preloadMusic(runtimeScene, "assets\\mOST WANTED.mp3");
+}{gdjs.evtTools.sound.preloadMusic(runtimeScene, "assets\\mOSTWANTED.mp3");
 }{gdjs.evtTools.sound.preloadSound(runtimeScene, "car_crash_effect.mp3");
 }}
 

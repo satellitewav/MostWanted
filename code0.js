@@ -273,7 +273,7 @@ gdjs.GiocoCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegi
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "spawn");
 }{gdjs.evtTools.input.touchSimulateMouse(runtimeScene, false);
 }{gdjs.evtTools.storage.loadJSONFileFromStorage("Memoria");
-}{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "assets\\mOST WANTED.mp3", 1, true, 100, 1);
+}{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "assets\\mOSTWANTED.mp3", 1, true, 100, 1);
 }}
 
 }
