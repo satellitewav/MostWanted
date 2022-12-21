@@ -31,6 +31,18 @@ gdjs.InizioCode.GDNewSpriteObjects1= [];
 gdjs.InizioCode.GDNewSpriteObjects2= [];
 gdjs.InizioCode.GDNewSpriteObjects3= [];
 gdjs.InizioCode.GDNewSpriteObjects4= [];
+gdjs.InizioCode.GDSportsCarOrangeObjects1= [];
+gdjs.InizioCode.GDSportsCarOrangeObjects2= [];
+gdjs.InizioCode.GDSportsCarOrangeObjects3= [];
+gdjs.InizioCode.GDSportsCarOrangeObjects4= [];
+gdjs.InizioCode.GDbg1Objects1= [];
+gdjs.InizioCode.GDbg1Objects2= [];
+gdjs.InizioCode.GDbg1Objects3= [];
+gdjs.InizioCode.GDbg1Objects4= [];
+gdjs.InizioCode.GDPoliceObjects1= [];
+gdjs.InizioCode.GDPoliceObjects2= [];
+gdjs.InizioCode.GDPoliceObjects3= [];
+gdjs.InizioCode.GDPoliceObjects4= [];
 
 gdjs.InizioCode.conditionTrue_0 = {val:false};
 gdjs.InizioCode.condition0IsTrue_0 = {val:false};
@@ -38,7 +50,7 @@ gdjs.InizioCode.condition1IsTrue_0 = {val:false};
 gdjs.InizioCode.condition2IsTrue_0 = {val:false};
 
 
-gdjs.InizioCode.asyncCallback11124708 = function (runtimeScene, asyncObjectsList) {
+gdjs.InizioCode.asyncCallback11226020 = function (runtimeScene, asyncObjectsList) {
 }
 gdjs.InizioCode.eventsList0 = function(runtimeScene) {
 
@@ -48,7 +60,7 @@ gdjs.InizioCode.eventsList0 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.InizioCode.asyncCallback11124708(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.InizioCode.asyncCallback11226020(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -139,7 +151,7 @@ gdjs.InizioCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoole
 }
 
 
-};gdjs.InizioCode.asyncCallback11128972 = function (runtimeScene, asyncObjectsList) {
+};gdjs.InizioCode.asyncCallback11230388 = function (runtimeScene, asyncObjectsList) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Gioco", true);
 }
 { //Subevents
@@ -153,7 +165,7 @@ gdjs.InizioCode.eventsList3 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.InizioCode.asyncCallback11128972(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.InizioCode.asyncCallback11230388(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -280,7 +292,6 @@ gdjs.InizioCode.GDcambianomeObjects1.length = k;}if (gdjs.InizioCode.condition0I
 {gdjs.evtTools.storage.deleteElementFromJSONFile("Memoria", "nome");
 }{gdjs.evtTools.storage.deleteElementFromJSONFile("Memoria", "record");
 }{gdjs.evtTools.storage.clearJSONFile("Memoria");
-}{gdjs.evtsExt__URLTools__Function.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }}
 
 }
@@ -301,7 +312,7 @@ for(var i = 0, k = 0, l = gdjs.InizioCode.GDticketObjects1.length;i<l;++i) {
 }
 gdjs.InizioCode.GDticketObjects1.length = k;}if (gdjs.InizioCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.firebaseTools.analytics.log("click su ticket", "");
-}{gdjs.evtsExt__URLTools__Redirect.func(runtimeScene, "https://www.google.it", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{gdjs.evtsExt__URLTools__Redirect.func(runtimeScene, "https://www.eventbrite.com/e/biglietti-satellite-most-wanted-satellite-showcase-491786435467?fbclid=PAAaa_xJmvAHKy8YtXbeRWQdIzgV_eL7m_a8boHbUebJhfCZYL2udBVzck9Ec", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }}
 
 }
@@ -396,6 +407,19 @@ gdjs.InizioCode.eventsList3(runtimeScene);} //End of subevents
 }
 
 
+{
+
+
+{
+gdjs.copyArray(runtimeScene.getObjects("bg1"), gdjs.InizioCode.GDbg1Objects1);
+{for(var i = 0, len = gdjs.InizioCode.GDbg1Objects1.length ;i < len;++i) {
+    gdjs.InizioCode.GDbg1Objects1[i].setYOffset(gdjs.InizioCode.GDbg1Objects1[i].getYOffset() + (-(200) * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene)));
+}
+}}
+
+}
+
+
 };
 
 gdjs.InizioCode.func = function(runtimeScene) {
@@ -433,6 +457,18 @@ gdjs.InizioCode.GDNewSpriteObjects1.length = 0;
 gdjs.InizioCode.GDNewSpriteObjects2.length = 0;
 gdjs.InizioCode.GDNewSpriteObjects3.length = 0;
 gdjs.InizioCode.GDNewSpriteObjects4.length = 0;
+gdjs.InizioCode.GDSportsCarOrangeObjects1.length = 0;
+gdjs.InizioCode.GDSportsCarOrangeObjects2.length = 0;
+gdjs.InizioCode.GDSportsCarOrangeObjects3.length = 0;
+gdjs.InizioCode.GDSportsCarOrangeObjects4.length = 0;
+gdjs.InizioCode.GDbg1Objects1.length = 0;
+gdjs.InizioCode.GDbg1Objects2.length = 0;
+gdjs.InizioCode.GDbg1Objects3.length = 0;
+gdjs.InizioCode.GDbg1Objects4.length = 0;
+gdjs.InizioCode.GDPoliceObjects1.length = 0;
+gdjs.InizioCode.GDPoliceObjects2.length = 0;
+gdjs.InizioCode.GDPoliceObjects3.length = 0;
+gdjs.InizioCode.GDPoliceObjects4.length = 0;
 
 gdjs.InizioCode.eventsList4(runtimeScene);
 
