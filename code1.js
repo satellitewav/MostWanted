@@ -242,7 +242,7 @@ gdjs.InizioCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBeg
 gdjs.InizioCode.condition1IsTrue_0.val = gdjs.evtTools.storage.elementExistsInJSONFile("Memoria", "nome");
 }if ( gdjs.InizioCode.condition1IsTrue_0.val ) {
 {
-gdjs.InizioCode.condition2IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)) != "";
+gdjs.InizioCode.condition2IsTrue_0.val = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)) != "0";
 }}
 }
 if (gdjs.InizioCode.condition2IsTrue_0.val) {
