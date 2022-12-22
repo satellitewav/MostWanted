@@ -2178,7 +2178,7 @@ gdjs.GiocoCode.GDPolice2Objects2.length = 0;
 
 gdjs.GiocoCode.condition0IsTrue_0.val = false;
 {
-gdjs.GiocoCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(7)) == 50;
+gdjs.GiocoCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(7)) == 60;
 }if (gdjs.GiocoCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("Star3"), gdjs.GiocoCode.GDStar3Objects2);
 gdjs.copyArray(runtimeScene.getObjects("bg2"), gdjs.GiocoCode.GDbg2Objects2);
@@ -2211,7 +2211,7 @@ gdjs.copyArray(runtimeScene.getObjects("bg3"), gdjs.GiocoCode.GDbg3Objects2);
 
 gdjs.GiocoCode.condition0IsTrue_0.val = false;
 {
-gdjs.GiocoCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(7)) == 100;
+gdjs.GiocoCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(7)) == 150;
 }if (gdjs.GiocoCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("Star4"), gdjs.GiocoCode.GDStar4Objects2);
 gdjs.copyArray(runtimeScene.getObjects("bg3"), gdjs.GiocoCode.GDbg3Objects2);
@@ -2238,7 +2238,7 @@ gdjs.copyArray(runtimeScene.getObjects("bg4"), gdjs.GiocoCode.GDbg4Objects2);
 gdjs.GiocoCode.condition0IsTrue_0.val = false;
 gdjs.GiocoCode.condition1IsTrue_0.val = false;
 {
-gdjs.GiocoCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(7)) == 100;
+gdjs.GiocoCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(7)) == 150;
 }if ( gdjs.GiocoCode.condition0IsTrue_0.val ) {
 {
 {gdjs.GiocoCode.conditionTrue_1 = gdjs.GiocoCode.condition1IsTrue_0;
@@ -2276,7 +2276,7 @@ gdjs.GiocoCode.GDTankObjects2.length = 0;
 
 gdjs.GiocoCode.condition0IsTrue_0.val = false;
 {
-gdjs.GiocoCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(7)) == 150;
+gdjs.GiocoCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(7)) == 250;
 }if (gdjs.GiocoCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("Star5"), gdjs.GiocoCode.GDStar5Objects1);
 gdjs.copyArray(runtimeScene.getObjects("bg4"), gdjs.GiocoCode.GDbg4Objects1);
