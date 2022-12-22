@@ -9,15 +9,13 @@ gdjs.GiocoCode.GDLeftArrowObjects2_1final = [];
 
 gdjs.GiocoCode.GDMuscleCarBlueObjects2_1final = [];
 
-gdjs.GiocoCode.GDPoliceObjects1_1final = [];
+gdjs.GiocoCode.GDPolice2Objects2_1final = [];
 
 gdjs.GiocoCode.GDPoliceObjects2_1final = [];
 
 gdjs.GiocoCode.GDRightArrowRoundButtonObjects2_1final = [];
 
-gdjs.GiocoCode.GDSuvTanObjects1_1final = [];
-
-gdjs.GiocoCode.GDTankObjects1_1final = [];
+gdjs.GiocoCode.GDSuvTanObjects2_1final = [];
 
 gdjs.GiocoCode.GDTankObjects2_1final = [];
 
@@ -63,6 +61,10 @@ gdjs.GiocoCode.GDPoliceObjects1= [];
 gdjs.GiocoCode.GDPoliceObjects2= [];
 gdjs.GiocoCode.GDPoliceObjects3= [];
 gdjs.GiocoCode.GDPoliceObjects4= [];
+gdjs.GiocoCode.GDPolice2Objects1= [];
+gdjs.GiocoCode.GDPolice2Objects2= [];
+gdjs.GiocoCode.GDPolice2Objects3= [];
+gdjs.GiocoCode.GDPolice2Objects4= [];
 gdjs.GiocoCode.GDTankObjects1= [];
 gdjs.GiocoCode.GDTankObjects2= [];
 gdjs.GiocoCode.GDTankObjects3= [];
@@ -224,35 +226,48 @@ gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDExplosionPoofObjects2Objects = Hashta
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDSportsCarOrangeObjects2Objects = Hashtable.newFrom({"SportsCarOrange": gdjs.GiocoCode.GDSportsCarOrangeObjects2});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPoliceObjects2Objects = Hashtable.newFrom({"Police": gdjs.GiocoCode.GDPoliceObjects2});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDExplosionPoofObjects2Objects = Hashtable.newFrom({"ExplosionPoof": gdjs.GiocoCode.GDExplosionPoofObjects2});
+gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDSportsCarOrangeObjects2Objects = Hashtable.newFrom({"SportsCarOrange": gdjs.GiocoCode.GDSportsCarOrangeObjects2});
+gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPolice2Objects2Objects = Hashtable.newFrom({"Police2": gdjs.GiocoCode.GDPolice2Objects2});
+gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDExplosionPoofObjects2Objects = Hashtable.newFrom({"ExplosionPoof": gdjs.GiocoCode.GDExplosionPoofObjects2});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPoliceObjects3Objects = Hashtable.newFrom({"Police": gdjs.GiocoCode.GDPoliceObjects3});
+gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDConvertiblePurpleObjects3Objects = Hashtable.newFrom({"ConvertiblePurple": gdjs.GiocoCode.GDConvertiblePurpleObjects3});
+gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPolice2Objects3Objects = Hashtable.newFrom({"Police2": gdjs.GiocoCode.GDPolice2Objects3});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDConvertiblePurpleObjects3Objects = Hashtable.newFrom({"ConvertiblePurple": gdjs.GiocoCode.GDConvertiblePurpleObjects3});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDTankObjects3Objects = Hashtable.newFrom({"Tank": gdjs.GiocoCode.GDTankObjects3});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDConvertiblePurpleObjects3Objects = Hashtable.newFrom({"ConvertiblePurple": gdjs.GiocoCode.GDConvertiblePurpleObjects3});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDExplosionPoofObjects2Objects = Hashtable.newFrom({"ExplosionPoof": gdjs.GiocoCode.GDExplosionPoofObjects2});
-gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPoliceObjects2Objects = Hashtable.newFrom({"Police": gdjs.GiocoCode.GDPoliceObjects2});
-gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDMuscleCarBlueObjects2Objects = Hashtable.newFrom({"MuscleCarBlue": gdjs.GiocoCode.GDMuscleCarBlueObjects2});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPoliceObjects3Objects = Hashtable.newFrom({"Police": gdjs.GiocoCode.GDPoliceObjects3});
+gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDMuscleCarBlueObjects3Objects = Hashtable.newFrom({"MuscleCarBlue": gdjs.GiocoCode.GDMuscleCarBlueObjects3});
+gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPolice2Objects3Objects = Hashtable.newFrom({"Police2": gdjs.GiocoCode.GDPolice2Objects3});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDMuscleCarBlueObjects3Objects = Hashtable.newFrom({"MuscleCarBlue": gdjs.GiocoCode.GDMuscleCarBlueObjects3});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDTankObjects3Objects = Hashtable.newFrom({"Tank": gdjs.GiocoCode.GDTankObjects3});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDMuscleCarBlueObjects3Objects = Hashtable.newFrom({"MuscleCarBlue": gdjs.GiocoCode.GDMuscleCarBlueObjects3});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDExplosionPoofObjects2Objects = Hashtable.newFrom({"ExplosionPoof": gdjs.GiocoCode.GDExplosionPoofObjects2});
-gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPoliceObjects2Objects = Hashtable.newFrom({"Police": gdjs.GiocoCode.GDPoliceObjects2});
-gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDCarRedObjects2Objects = Hashtable.newFrom({"CarRed": gdjs.GiocoCode.GDCarRedObjects2});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPoliceObjects3Objects = Hashtable.newFrom({"Police": gdjs.GiocoCode.GDPoliceObjects3});
+gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDCarRedObjects3Objects = Hashtable.newFrom({"CarRed": gdjs.GiocoCode.GDCarRedObjects3});
+gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPolice2Objects3Objects = Hashtable.newFrom({"Police2": gdjs.GiocoCode.GDPolice2Objects3});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDCarRedObjects3Objects = Hashtable.newFrom({"CarRed": gdjs.GiocoCode.GDCarRedObjects3});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDTankObjects3Objects = Hashtable.newFrom({"Tank": gdjs.GiocoCode.GDTankObjects3});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDCarRedObjects3Objects = Hashtable.newFrom({"CarRed": gdjs.GiocoCode.GDCarRedObjects3});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDExplosionPoofObjects2Objects = Hashtable.newFrom({"ExplosionPoof": gdjs.GiocoCode.GDExplosionPoofObjects2});
+gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPolice2Objects3Objects = Hashtable.newFrom({"Police2": gdjs.GiocoCode.GDPolice2Objects3});
+gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDJeepBriteGreenObjects3Objects = Hashtable.newFrom({"JeepBriteGreen": gdjs.GiocoCode.GDJeepBriteGreenObjects3});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPoliceObjects3Objects = Hashtable.newFrom({"Police": gdjs.GiocoCode.GDPoliceObjects3});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDJeepBriteGreenObjects3Objects = Hashtable.newFrom({"JeepBriteGreen": gdjs.GiocoCode.GDJeepBriteGreenObjects3});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDTankObjects3Objects = Hashtable.newFrom({"Tank": gdjs.GiocoCode.GDTankObjects3});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDJeepBriteGreenObjects3Objects = Hashtable.newFrom({"JeepBriteGreen": gdjs.GiocoCode.GDJeepBriteGreenObjects3});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDExplosionPoofObjects2Objects = Hashtable.newFrom({"ExplosionPoof": gdjs.GiocoCode.GDExplosionPoofObjects2});
+gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPoliceObjects3Objects = Hashtable.newFrom({"Police": gdjs.GiocoCode.GDPoliceObjects3});
+gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDSuvTanObjects3Objects = Hashtable.newFrom({"SuvTan": gdjs.GiocoCode.GDSuvTanObjects3});
+gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPolice2Objects3Objects = Hashtable.newFrom({"Police2": gdjs.GiocoCode.GDPolice2Objects3});
+gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDSuvTanObjects3Objects = Hashtable.newFrom({"SuvTan": gdjs.GiocoCode.GDSuvTanObjects3});
+gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDTankObjects3Objects = Hashtable.newFrom({"Tank": gdjs.GiocoCode.GDTankObjects3});
+gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDSuvTanObjects3Objects = Hashtable.newFrom({"SuvTan": gdjs.GiocoCode.GDSuvTanObjects3});
+gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDExplosionPoofObjects2Objects = Hashtable.newFrom({"ExplosionPoof": gdjs.GiocoCode.GDExplosionPoofObjects2});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPoliceObjects2Objects = Hashtable.newFrom({"Police": gdjs.GiocoCode.GDPoliceObjects2});
-gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDSuvTanObjects2Objects = Hashtable.newFrom({"SuvTan": gdjs.GiocoCode.GDSuvTanObjects2});
-gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDTankObjects2Objects = Hashtable.newFrom({"Tank": gdjs.GiocoCode.GDTankObjects2});
-gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDSuvTanObjects2Objects = Hashtable.newFrom({"SuvTan": gdjs.GiocoCode.GDSuvTanObjects2});
-gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDExplosionPoofObjects1Objects = Hashtable.newFrom({"ExplosionPoof": gdjs.GiocoCode.GDExplosionPoofObjects1});
+gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPolice2Objects2Objects = Hashtable.newFrom({"Police2": gdjs.GiocoCode.GDPolice2Objects2});
+gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPoliceObjects1Objects = Hashtable.newFrom({"Police": gdjs.GiocoCode.GDPoliceObjects1});
+gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPolice2Objects1Objects = Hashtable.newFrom({"Police2": gdjs.GiocoCode.GDPolice2Objects1});
 gdjs.GiocoCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -476,6 +491,7 @@ gdjs.copyArray(runtimeScene.getObjects("Heart"), gdjs.GiocoCode.GDHeartObjects2)
 gdjs.copyArray(runtimeScene.getObjects("JeepBriteGreen"), gdjs.GiocoCode.GDJeepBriteGreenObjects2);
 gdjs.copyArray(runtimeScene.getObjects("MuscleCarBlue"), gdjs.GiocoCode.GDMuscleCarBlueObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Police"), gdjs.GiocoCode.GDPoliceObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Police2"), gdjs.GiocoCode.GDPolice2Objects2);
 gdjs.copyArray(runtimeScene.getObjects("SportsCarOrange"), gdjs.GiocoCode.GDSportsCarOrangeObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Star3"), gdjs.GiocoCode.GDStar3Objects2);
 gdjs.copyArray(runtimeScene.getObjects("SuvTan"), gdjs.GiocoCode.GDSuvTanObjects2);
@@ -488,6 +504,9 @@ gdjs.copyArray(runtimeScene.getObjects("vita2"), gdjs.GiocoCode.GDvita2Objects2)
 gdjs.copyArray(runtimeScene.getObjects("vita3"), gdjs.GiocoCode.GDvita3Objects2);
 {for(var i = 0, len = gdjs.GiocoCode.GDPoliceObjects2.length ;i < len;++i) {
     gdjs.GiocoCode.GDPoliceObjects2[i].getBehavior("Pathfinding").moveTo(runtimeScene, (( gdjs.GiocoCode.GDSportsCarOrangeObjects2.length === 0 ) ? 0 :gdjs.GiocoCode.GDSportsCarOrangeObjects2[0].getPointX("")), (( gdjs.GiocoCode.GDSportsCarOrangeObjects2.length === 0 ) ? 0 :gdjs.GiocoCode.GDSportsCarOrangeObjects2[0].getPointY("")));
+}
+}{for(var i = 0, len = gdjs.GiocoCode.GDPolice2Objects2.length ;i < len;++i) {
+    gdjs.GiocoCode.GDPolice2Objects2[i].getBehavior("Pathfinding").moveTo(runtimeScene, (( gdjs.GiocoCode.GDSportsCarOrangeObjects2.length === 0 ) ? 0 :gdjs.GiocoCode.GDSportsCarOrangeObjects2[0].getPointX("")), (( gdjs.GiocoCode.GDSportsCarOrangeObjects2.length === 0 ) ? 0 :gdjs.GiocoCode.GDSportsCarOrangeObjects2[0].getPointY("")));
 }
 }{for(var i = 0, len = gdjs.GiocoCode.GDTankObjects2.length ;i < len;++i) {
     gdjs.GiocoCode.GDTankObjects2[i].getBehavior("Pathfinding").moveTo(runtimeScene, (( gdjs.GiocoCode.GDSportsCarOrangeObjects2.length === 0 ) ? 0 :gdjs.GiocoCode.GDSportsCarOrangeObjects2[0].getPointX("")), (( gdjs.GiocoCode.GDSportsCarOrangeObjects2.length === 0 ) ? 0 :gdjs.GiocoCode.GDSportsCarOrangeObjects2[0].getPointY("")));
@@ -548,6 +567,9 @@ gdjs.copyArray(runtimeScene.getObjects("vita3"), gdjs.GiocoCode.GDvita3Objects2)
 }
 }{for(var i = 0, len = gdjs.GiocoCode.GDPoliceObjects2.length ;i < len;++i) {
     gdjs.GiocoCode.GDPoliceObjects2[i].addPolarForce(-(270), 200, 0);
+}
+}{for(var i = 0, len = gdjs.GiocoCode.GDPolice2Objects2.length ;i < len;++i) {
+    gdjs.GiocoCode.GDPolice2Objects2[i].addPolarForce(-(270), 200, 0);
 }
 }{for(var i = 0, len = gdjs.GiocoCode.GDTankObjects2.length ;i < len;++i) {
     gdjs.GiocoCode.GDTankObjects2[i].addPolarForce(-(270), 200, 0);
@@ -886,6 +908,42 @@ gdjs.GiocoCode.GDExplosionPoofObjects2.length = 0;
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("Police2"), gdjs.GiocoCode.GDPolice2Objects2);
+gdjs.copyArray(runtimeScene.getObjects("SportsCarOrange"), gdjs.GiocoCode.GDSportsCarOrangeObjects2);
+
+gdjs.GiocoCode.condition0IsTrue_0.val = false;
+gdjs.GiocoCode.condition1IsTrue_0.val = false;
+{
+gdjs.GiocoCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDSportsCarOrangeObjects2Objects, gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPolice2Objects2Objects, false, runtimeScene, false);
+}if ( gdjs.GiocoCode.condition0IsTrue_0.val ) {
+{
+gdjs.GiocoCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(11)) > 0;
+}}
+if (gdjs.GiocoCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.GiocoCode.GDPolice2Objects2 */
+gdjs.GiocoCode.GDExplosionPoofObjects2.length = 0;
+
+{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDExplosionPoofObjects2Objects, (( gdjs.GiocoCode.GDPolice2Objects2.length === 0 ) ? 0 :gdjs.GiocoCode.GDPolice2Objects2[0].getPointX("")) - 40, (( gdjs.GiocoCode.GDPolice2Objects2.length === 0 ) ? 0 :gdjs.GiocoCode.GDPolice2Objects2[0].getPointY("")) - 50, "");
+}{for(var i = 0, len = gdjs.GiocoCode.GDExplosionPoofObjects2.length ;i < len;++i) {
+    gdjs.GiocoCode.GDExplosionPoofObjects2[i].setSize(200, 200);
+}
+}{for(var i = 0, len = gdjs.GiocoCode.GDExplosionPoofObjects2.length ;i < len;++i) {
+    gdjs.GiocoCode.GDExplosionPoofObjects2[i].setZOrder(2);
+}
+}{for(var i = 0, len = gdjs.GiocoCode.GDPolice2Objects2.length ;i < len;++i) {
+    gdjs.GiocoCode.GDPolice2Objects2[i].deleteFromScene(runtimeScene);
+}
+}{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getVariables().getFromIndex(12), false);
+}{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getVariables().getFromIndex(16), false);
+}{runtimeScene.getVariables().getFromIndex(11).sub(1);
+}{gdjs.deviceVibration.startVibration(200);
+}}
+
+}
+
+
+{
+
 
 
 }
@@ -897,14 +955,17 @@ gdjs.GiocoCode.GDConvertiblePurpleObjects2.length = 0;
 
 gdjs.GiocoCode.GDPoliceObjects2.length = 0;
 
+gdjs.GiocoCode.GDPolice2Objects2.length = 0;
+
 gdjs.GiocoCode.GDTankObjects2.length = 0;
 
 
 gdjs.GiocoCode.condition0IsTrue_0.val = false;
 {
 {gdjs.GiocoCode.conditionTrue_1 = gdjs.GiocoCode.condition0IsTrue_0;
-gdjs.GiocoCode.GDConvertiblePurpleObjects2_1final.length = 0;gdjs.GiocoCode.GDPoliceObjects2_1final.length = 0;gdjs.GiocoCode.GDTankObjects2_1final.length = 0;gdjs.GiocoCode.condition0IsTrue_1.val = false;
+gdjs.GiocoCode.GDConvertiblePurpleObjects2_1final.length = 0;gdjs.GiocoCode.GDPoliceObjects2_1final.length = 0;gdjs.GiocoCode.GDPolice2Objects2_1final.length = 0;gdjs.GiocoCode.GDTankObjects2_1final.length = 0;gdjs.GiocoCode.condition0IsTrue_1.val = false;
 gdjs.GiocoCode.condition1IsTrue_1.val = false;
+gdjs.GiocoCode.condition2IsTrue_1.val = false;
 {
 gdjs.copyArray(runtimeScene.getObjects("ConvertiblePurple"), gdjs.GiocoCode.GDConvertiblePurpleObjects3);
 gdjs.copyArray(runtimeScene.getObjects("Police"), gdjs.GiocoCode.GDPoliceObjects3);
@@ -923,9 +984,25 @@ if( gdjs.GiocoCode.condition0IsTrue_1.val ) {
 }
 {
 gdjs.copyArray(runtimeScene.getObjects("ConvertiblePurple"), gdjs.GiocoCode.GDConvertiblePurpleObjects3);
-gdjs.copyArray(runtimeScene.getObjects("Tank"), gdjs.GiocoCode.GDTankObjects3);
-gdjs.GiocoCode.condition1IsTrue_1.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDTankObjects3Objects, gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDConvertiblePurpleObjects3Objects, false, runtimeScene, false);
+gdjs.copyArray(runtimeScene.getObjects("Police2"), gdjs.GiocoCode.GDPolice2Objects3);
+gdjs.GiocoCode.condition1IsTrue_1.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPolice2Objects3Objects, gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDConvertiblePurpleObjects3Objects, false, runtimeScene, false);
 if( gdjs.GiocoCode.condition1IsTrue_1.val ) {
+    gdjs.GiocoCode.conditionTrue_1.val = true;
+    for(var j = 0, jLen = gdjs.GiocoCode.GDConvertiblePurpleObjects3.length;j<jLen;++j) {
+        if ( gdjs.GiocoCode.GDConvertiblePurpleObjects2_1final.indexOf(gdjs.GiocoCode.GDConvertiblePurpleObjects3[j]) === -1 )
+            gdjs.GiocoCode.GDConvertiblePurpleObjects2_1final.push(gdjs.GiocoCode.GDConvertiblePurpleObjects3[j]);
+    }
+    for(var j = 0, jLen = gdjs.GiocoCode.GDPolice2Objects3.length;j<jLen;++j) {
+        if ( gdjs.GiocoCode.GDPolice2Objects2_1final.indexOf(gdjs.GiocoCode.GDPolice2Objects3[j]) === -1 )
+            gdjs.GiocoCode.GDPolice2Objects2_1final.push(gdjs.GiocoCode.GDPolice2Objects3[j]);
+    }
+}
+}
+{
+gdjs.copyArray(runtimeScene.getObjects("ConvertiblePurple"), gdjs.GiocoCode.GDConvertiblePurpleObjects3);
+gdjs.copyArray(runtimeScene.getObjects("Tank"), gdjs.GiocoCode.GDTankObjects3);
+gdjs.GiocoCode.condition2IsTrue_1.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDTankObjects3Objects, gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDConvertiblePurpleObjects3Objects, false, runtimeScene, false);
+if( gdjs.GiocoCode.condition2IsTrue_1.val ) {
     gdjs.GiocoCode.conditionTrue_1.val = true;
     for(var j = 0, jLen = gdjs.GiocoCode.GDConvertiblePurpleObjects3.length;j<jLen;++j) {
         if ( gdjs.GiocoCode.GDConvertiblePurpleObjects2_1final.indexOf(gdjs.GiocoCode.GDConvertiblePurpleObjects3[j]) === -1 )
@@ -940,6 +1017,7 @@ if( gdjs.GiocoCode.condition1IsTrue_1.val ) {
 {
 gdjs.copyArray(gdjs.GiocoCode.GDConvertiblePurpleObjects2_1final, gdjs.GiocoCode.GDConvertiblePurpleObjects2);
 gdjs.copyArray(gdjs.GiocoCode.GDPoliceObjects2_1final, gdjs.GiocoCode.GDPoliceObjects2);
+gdjs.copyArray(gdjs.GiocoCode.GDPolice2Objects2_1final, gdjs.GiocoCode.GDPolice2Objects2);
 gdjs.copyArray(gdjs.GiocoCode.GDTankObjects2_1final, gdjs.GiocoCode.GDTankObjects2);
 }
 }
@@ -964,25 +1042,24 @@ gdjs.GiocoCode.GDExplosionPoofObjects2.length = 0;
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("MuscleCarBlue"), gdjs.GiocoCode.GDMuscleCarBlueObjects2);
-gdjs.copyArray(runtimeScene.getObjects("Police"), gdjs.GiocoCode.GDPoliceObjects2);
+gdjs.GiocoCode.GDMuscleCarBlueObjects2.length = 0;
+
+gdjs.GiocoCode.GDPoliceObjects2.length = 0;
+
+gdjs.GiocoCode.GDPolice2Objects2.length = 0;
+
 gdjs.GiocoCode.GDTankObjects2.length = 0;
 
 
 gdjs.GiocoCode.condition0IsTrue_0.val = false;
-gdjs.GiocoCode.condition1IsTrue_0.val = false;
 {
-gdjs.GiocoCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPoliceObjects2Objects, gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDMuscleCarBlueObjects2Objects, false, runtimeScene, false);
-}if ( gdjs.GiocoCode.condition0IsTrue_0.val ) {
-{
-{gdjs.GiocoCode.conditionTrue_1 = gdjs.GiocoCode.condition1IsTrue_0;
-gdjs.GiocoCode.GDMuscleCarBlueObjects2_1final.length = 0;gdjs.GiocoCode.GDPoliceObjects2_1final.length = 0;gdjs.GiocoCode.GDTankObjects2_1final.length = 0;gdjs.GiocoCode.condition0IsTrue_1.val = false;
+{gdjs.GiocoCode.conditionTrue_1 = gdjs.GiocoCode.condition0IsTrue_0;
+gdjs.GiocoCode.GDMuscleCarBlueObjects2_1final.length = 0;gdjs.GiocoCode.GDPoliceObjects2_1final.length = 0;gdjs.GiocoCode.GDPolice2Objects2_1final.length = 0;gdjs.GiocoCode.GDTankObjects2_1final.length = 0;gdjs.GiocoCode.condition0IsTrue_1.val = false;
 gdjs.GiocoCode.condition1IsTrue_1.val = false;
+gdjs.GiocoCode.condition2IsTrue_1.val = false;
 {
-gdjs.copyArray(gdjs.GiocoCode.GDMuscleCarBlueObjects2, gdjs.GiocoCode.GDMuscleCarBlueObjects3);
-
-gdjs.copyArray(gdjs.GiocoCode.GDPoliceObjects2, gdjs.GiocoCode.GDPoliceObjects3);
-
+gdjs.copyArray(runtimeScene.getObjects("MuscleCarBlue"), gdjs.GiocoCode.GDMuscleCarBlueObjects3);
+gdjs.copyArray(runtimeScene.getObjects("Police"), gdjs.GiocoCode.GDPoliceObjects3);
 gdjs.GiocoCode.condition0IsTrue_1.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPoliceObjects3Objects, gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDMuscleCarBlueObjects3Objects, false, runtimeScene, false);
 if( gdjs.GiocoCode.condition0IsTrue_1.val ) {
     gdjs.GiocoCode.conditionTrue_1.val = true;
@@ -997,11 +1074,26 @@ if( gdjs.GiocoCode.condition0IsTrue_1.val ) {
 }
 }
 {
-gdjs.copyArray(gdjs.GiocoCode.GDMuscleCarBlueObjects2, gdjs.GiocoCode.GDMuscleCarBlueObjects3);
-
-gdjs.copyArray(runtimeScene.getObjects("Tank"), gdjs.GiocoCode.GDTankObjects3);
-gdjs.GiocoCode.condition1IsTrue_1.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDTankObjects3Objects, gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDMuscleCarBlueObjects3Objects, false, runtimeScene, false);
+gdjs.copyArray(runtimeScene.getObjects("MuscleCarBlue"), gdjs.GiocoCode.GDMuscleCarBlueObjects3);
+gdjs.copyArray(runtimeScene.getObjects("Police2"), gdjs.GiocoCode.GDPolice2Objects3);
+gdjs.GiocoCode.condition1IsTrue_1.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPolice2Objects3Objects, gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDMuscleCarBlueObjects3Objects, false, runtimeScene, false);
 if( gdjs.GiocoCode.condition1IsTrue_1.val ) {
+    gdjs.GiocoCode.conditionTrue_1.val = true;
+    for(var j = 0, jLen = gdjs.GiocoCode.GDMuscleCarBlueObjects3.length;j<jLen;++j) {
+        if ( gdjs.GiocoCode.GDMuscleCarBlueObjects2_1final.indexOf(gdjs.GiocoCode.GDMuscleCarBlueObjects3[j]) === -1 )
+            gdjs.GiocoCode.GDMuscleCarBlueObjects2_1final.push(gdjs.GiocoCode.GDMuscleCarBlueObjects3[j]);
+    }
+    for(var j = 0, jLen = gdjs.GiocoCode.GDPolice2Objects3.length;j<jLen;++j) {
+        if ( gdjs.GiocoCode.GDPolice2Objects2_1final.indexOf(gdjs.GiocoCode.GDPolice2Objects3[j]) === -1 )
+            gdjs.GiocoCode.GDPolice2Objects2_1final.push(gdjs.GiocoCode.GDPolice2Objects3[j]);
+    }
+}
+}
+{
+gdjs.copyArray(runtimeScene.getObjects("MuscleCarBlue"), gdjs.GiocoCode.GDMuscleCarBlueObjects3);
+gdjs.copyArray(runtimeScene.getObjects("Tank"), gdjs.GiocoCode.GDTankObjects3);
+gdjs.GiocoCode.condition2IsTrue_1.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDTankObjects3Objects, gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDMuscleCarBlueObjects3Objects, false, runtimeScene, false);
+if( gdjs.GiocoCode.condition2IsTrue_1.val ) {
     gdjs.GiocoCode.conditionTrue_1.val = true;
     for(var j = 0, jLen = gdjs.GiocoCode.GDMuscleCarBlueObjects3.length;j<jLen;++j) {
         if ( gdjs.GiocoCode.GDMuscleCarBlueObjects2_1final.indexOf(gdjs.GiocoCode.GDMuscleCarBlueObjects3[j]) === -1 )
@@ -1016,11 +1108,11 @@ if( gdjs.GiocoCode.condition1IsTrue_1.val ) {
 {
 gdjs.copyArray(gdjs.GiocoCode.GDMuscleCarBlueObjects2_1final, gdjs.GiocoCode.GDMuscleCarBlueObjects2);
 gdjs.copyArray(gdjs.GiocoCode.GDPoliceObjects2_1final, gdjs.GiocoCode.GDPoliceObjects2);
+gdjs.copyArray(gdjs.GiocoCode.GDPolice2Objects2_1final, gdjs.GiocoCode.GDPolice2Objects2);
 gdjs.copyArray(gdjs.GiocoCode.GDTankObjects2_1final, gdjs.GiocoCode.GDTankObjects2);
 }
 }
-}}
-if (gdjs.GiocoCode.condition1IsTrue_0.val) {
+}if (gdjs.GiocoCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.GiocoCode.GDMuscleCarBlueObjects2 */
 gdjs.GiocoCode.GDExplosionPoofObjects2.length = 0;
 
@@ -1041,25 +1133,24 @@ gdjs.GiocoCode.GDExplosionPoofObjects2.length = 0;
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("CarRed"), gdjs.GiocoCode.GDCarRedObjects2);
-gdjs.copyArray(runtimeScene.getObjects("Police"), gdjs.GiocoCode.GDPoliceObjects2);
+gdjs.GiocoCode.GDCarRedObjects2.length = 0;
+
+gdjs.GiocoCode.GDPoliceObjects2.length = 0;
+
+gdjs.GiocoCode.GDPolice2Objects2.length = 0;
+
 gdjs.GiocoCode.GDTankObjects2.length = 0;
 
 
 gdjs.GiocoCode.condition0IsTrue_0.val = false;
-gdjs.GiocoCode.condition1IsTrue_0.val = false;
 {
-gdjs.GiocoCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPoliceObjects2Objects, gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDCarRedObjects2Objects, false, runtimeScene, false);
-}if ( gdjs.GiocoCode.condition0IsTrue_0.val ) {
-{
-{gdjs.GiocoCode.conditionTrue_1 = gdjs.GiocoCode.condition1IsTrue_0;
-gdjs.GiocoCode.GDCarRedObjects2_1final.length = 0;gdjs.GiocoCode.GDPoliceObjects2_1final.length = 0;gdjs.GiocoCode.GDTankObjects2_1final.length = 0;gdjs.GiocoCode.condition0IsTrue_1.val = false;
+{gdjs.GiocoCode.conditionTrue_1 = gdjs.GiocoCode.condition0IsTrue_0;
+gdjs.GiocoCode.GDCarRedObjects2_1final.length = 0;gdjs.GiocoCode.GDPoliceObjects2_1final.length = 0;gdjs.GiocoCode.GDPolice2Objects2_1final.length = 0;gdjs.GiocoCode.GDTankObjects2_1final.length = 0;gdjs.GiocoCode.condition0IsTrue_1.val = false;
 gdjs.GiocoCode.condition1IsTrue_1.val = false;
+gdjs.GiocoCode.condition2IsTrue_1.val = false;
 {
-gdjs.copyArray(gdjs.GiocoCode.GDCarRedObjects2, gdjs.GiocoCode.GDCarRedObjects3);
-
-gdjs.copyArray(gdjs.GiocoCode.GDPoliceObjects2, gdjs.GiocoCode.GDPoliceObjects3);
-
+gdjs.copyArray(runtimeScene.getObjects("CarRed"), gdjs.GiocoCode.GDCarRedObjects3);
+gdjs.copyArray(runtimeScene.getObjects("Police"), gdjs.GiocoCode.GDPoliceObjects3);
 gdjs.GiocoCode.condition0IsTrue_1.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPoliceObjects3Objects, gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDCarRedObjects3Objects, false, runtimeScene, false);
 if( gdjs.GiocoCode.condition0IsTrue_1.val ) {
     gdjs.GiocoCode.conditionTrue_1.val = true;
@@ -1074,11 +1165,26 @@ if( gdjs.GiocoCode.condition0IsTrue_1.val ) {
 }
 }
 {
-gdjs.copyArray(gdjs.GiocoCode.GDCarRedObjects2, gdjs.GiocoCode.GDCarRedObjects3);
-
-gdjs.copyArray(runtimeScene.getObjects("Tank"), gdjs.GiocoCode.GDTankObjects3);
-gdjs.GiocoCode.condition1IsTrue_1.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDTankObjects3Objects, gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDCarRedObjects3Objects, false, runtimeScene, false);
+gdjs.copyArray(runtimeScene.getObjects("CarRed"), gdjs.GiocoCode.GDCarRedObjects3);
+gdjs.copyArray(runtimeScene.getObjects("Police2"), gdjs.GiocoCode.GDPolice2Objects3);
+gdjs.GiocoCode.condition1IsTrue_1.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPolice2Objects3Objects, gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDCarRedObjects3Objects, false, runtimeScene, false);
 if( gdjs.GiocoCode.condition1IsTrue_1.val ) {
+    gdjs.GiocoCode.conditionTrue_1.val = true;
+    for(var j = 0, jLen = gdjs.GiocoCode.GDCarRedObjects3.length;j<jLen;++j) {
+        if ( gdjs.GiocoCode.GDCarRedObjects2_1final.indexOf(gdjs.GiocoCode.GDCarRedObjects3[j]) === -1 )
+            gdjs.GiocoCode.GDCarRedObjects2_1final.push(gdjs.GiocoCode.GDCarRedObjects3[j]);
+    }
+    for(var j = 0, jLen = gdjs.GiocoCode.GDPolice2Objects3.length;j<jLen;++j) {
+        if ( gdjs.GiocoCode.GDPolice2Objects2_1final.indexOf(gdjs.GiocoCode.GDPolice2Objects3[j]) === -1 )
+            gdjs.GiocoCode.GDPolice2Objects2_1final.push(gdjs.GiocoCode.GDPolice2Objects3[j]);
+    }
+}
+}
+{
+gdjs.copyArray(runtimeScene.getObjects("CarRed"), gdjs.GiocoCode.GDCarRedObjects3);
+gdjs.copyArray(runtimeScene.getObjects("Tank"), gdjs.GiocoCode.GDTankObjects3);
+gdjs.GiocoCode.condition2IsTrue_1.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDTankObjects3Objects, gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDCarRedObjects3Objects, false, runtimeScene, false);
+if( gdjs.GiocoCode.condition2IsTrue_1.val ) {
     gdjs.GiocoCode.conditionTrue_1.val = true;
     for(var j = 0, jLen = gdjs.GiocoCode.GDCarRedObjects3.length;j<jLen;++j) {
         if ( gdjs.GiocoCode.GDCarRedObjects2_1final.indexOf(gdjs.GiocoCode.GDCarRedObjects3[j]) === -1 )
@@ -1093,11 +1199,11 @@ if( gdjs.GiocoCode.condition1IsTrue_1.val ) {
 {
 gdjs.copyArray(gdjs.GiocoCode.GDCarRedObjects2_1final, gdjs.GiocoCode.GDCarRedObjects2);
 gdjs.copyArray(gdjs.GiocoCode.GDPoliceObjects2_1final, gdjs.GiocoCode.GDPoliceObjects2);
+gdjs.copyArray(gdjs.GiocoCode.GDPolice2Objects2_1final, gdjs.GiocoCode.GDPolice2Objects2);
 gdjs.copyArray(gdjs.GiocoCode.GDTankObjects2_1final, gdjs.GiocoCode.GDTankObjects2);
 }
 }
-}}
-if (gdjs.GiocoCode.condition1IsTrue_0.val) {
+}if (gdjs.GiocoCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.GiocoCode.GDCarRedObjects2 */
 gdjs.GiocoCode.GDExplosionPoofObjects2.length = 0;
 
@@ -1122,19 +1228,38 @@ gdjs.GiocoCode.GDJeepBriteGreenObjects2.length = 0;
 
 gdjs.GiocoCode.GDPoliceObjects2.length = 0;
 
+gdjs.GiocoCode.GDPolice2Objects2.length = 0;
+
 gdjs.GiocoCode.GDTankObjects2.length = 0;
 
 
 gdjs.GiocoCode.condition0IsTrue_0.val = false;
 {
 {gdjs.GiocoCode.conditionTrue_1 = gdjs.GiocoCode.condition0IsTrue_0;
-gdjs.GiocoCode.GDJeepBriteGreenObjects2_1final.length = 0;gdjs.GiocoCode.GDPoliceObjects2_1final.length = 0;gdjs.GiocoCode.GDTankObjects2_1final.length = 0;gdjs.GiocoCode.condition0IsTrue_1.val = false;
+gdjs.GiocoCode.GDJeepBriteGreenObjects2_1final.length = 0;gdjs.GiocoCode.GDPoliceObjects2_1final.length = 0;gdjs.GiocoCode.GDPolice2Objects2_1final.length = 0;gdjs.GiocoCode.GDTankObjects2_1final.length = 0;gdjs.GiocoCode.condition0IsTrue_1.val = false;
 gdjs.GiocoCode.condition1IsTrue_1.val = false;
+gdjs.GiocoCode.condition2IsTrue_1.val = false;
+{
+gdjs.copyArray(runtimeScene.getObjects("JeepBriteGreen"), gdjs.GiocoCode.GDJeepBriteGreenObjects3);
+gdjs.copyArray(runtimeScene.getObjects("Police2"), gdjs.GiocoCode.GDPolice2Objects3);
+gdjs.GiocoCode.condition0IsTrue_1.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPolice2Objects3Objects, gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDJeepBriteGreenObjects3Objects, false, runtimeScene, false);
+if( gdjs.GiocoCode.condition0IsTrue_1.val ) {
+    gdjs.GiocoCode.conditionTrue_1.val = true;
+    for(var j = 0, jLen = gdjs.GiocoCode.GDJeepBriteGreenObjects3.length;j<jLen;++j) {
+        if ( gdjs.GiocoCode.GDJeepBriteGreenObjects2_1final.indexOf(gdjs.GiocoCode.GDJeepBriteGreenObjects3[j]) === -1 )
+            gdjs.GiocoCode.GDJeepBriteGreenObjects2_1final.push(gdjs.GiocoCode.GDJeepBriteGreenObjects3[j]);
+    }
+    for(var j = 0, jLen = gdjs.GiocoCode.GDPolice2Objects3.length;j<jLen;++j) {
+        if ( gdjs.GiocoCode.GDPolice2Objects2_1final.indexOf(gdjs.GiocoCode.GDPolice2Objects3[j]) === -1 )
+            gdjs.GiocoCode.GDPolice2Objects2_1final.push(gdjs.GiocoCode.GDPolice2Objects3[j]);
+    }
+}
+}
 {
 gdjs.copyArray(runtimeScene.getObjects("JeepBriteGreen"), gdjs.GiocoCode.GDJeepBriteGreenObjects3);
 gdjs.copyArray(runtimeScene.getObjects("Police"), gdjs.GiocoCode.GDPoliceObjects3);
-gdjs.GiocoCode.condition0IsTrue_1.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPoliceObjects3Objects, gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDJeepBriteGreenObjects3Objects, false, runtimeScene, false);
-if( gdjs.GiocoCode.condition0IsTrue_1.val ) {
+gdjs.GiocoCode.condition1IsTrue_1.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPoliceObjects3Objects, gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDJeepBriteGreenObjects3Objects, false, runtimeScene, false);
+if( gdjs.GiocoCode.condition1IsTrue_1.val ) {
     gdjs.GiocoCode.conditionTrue_1.val = true;
     for(var j = 0, jLen = gdjs.GiocoCode.GDJeepBriteGreenObjects3.length;j<jLen;++j) {
         if ( gdjs.GiocoCode.GDJeepBriteGreenObjects2_1final.indexOf(gdjs.GiocoCode.GDJeepBriteGreenObjects3[j]) === -1 )
@@ -1149,8 +1274,8 @@ if( gdjs.GiocoCode.condition0IsTrue_1.val ) {
 {
 gdjs.copyArray(runtimeScene.getObjects("JeepBriteGreen"), gdjs.GiocoCode.GDJeepBriteGreenObjects3);
 gdjs.copyArray(runtimeScene.getObjects("Tank"), gdjs.GiocoCode.GDTankObjects3);
-gdjs.GiocoCode.condition1IsTrue_1.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDTankObjects3Objects, gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDJeepBriteGreenObjects3Objects, false, runtimeScene, false);
-if( gdjs.GiocoCode.condition1IsTrue_1.val ) {
+gdjs.GiocoCode.condition2IsTrue_1.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDTankObjects3Objects, gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDJeepBriteGreenObjects3Objects, false, runtimeScene, false);
+if( gdjs.GiocoCode.condition2IsTrue_1.val ) {
     gdjs.GiocoCode.conditionTrue_1.val = true;
     for(var j = 0, jLen = gdjs.GiocoCode.GDJeepBriteGreenObjects3.length;j<jLen;++j) {
         if ( gdjs.GiocoCode.GDJeepBriteGreenObjects2_1final.indexOf(gdjs.GiocoCode.GDJeepBriteGreenObjects3[j]) === -1 )
@@ -1165,6 +1290,7 @@ if( gdjs.GiocoCode.condition1IsTrue_1.val ) {
 {
 gdjs.copyArray(gdjs.GiocoCode.GDJeepBriteGreenObjects2_1final, gdjs.GiocoCode.GDJeepBriteGreenObjects2);
 gdjs.copyArray(gdjs.GiocoCode.GDPoliceObjects2_1final, gdjs.GiocoCode.GDPoliceObjects2);
+gdjs.copyArray(gdjs.GiocoCode.GDPolice2Objects2_1final, gdjs.GiocoCode.GDPolice2Objects2);
 gdjs.copyArray(gdjs.GiocoCode.GDTankObjects2_1final, gdjs.GiocoCode.GDTankObjects2);
 }
 }
@@ -1189,69 +1315,137 @@ gdjs.GiocoCode.GDExplosionPoofObjects2.length = 0;
 
 {
 
-gdjs.GiocoCode.GDPoliceObjects1.length = 0;
+gdjs.GiocoCode.GDPoliceObjects2.length = 0;
 
-gdjs.GiocoCode.GDSuvTanObjects1.length = 0;
+gdjs.GiocoCode.GDPolice2Objects2.length = 0;
 
-gdjs.GiocoCode.GDTankObjects1.length = 0;
+gdjs.GiocoCode.GDSuvTanObjects2.length = 0;
+
+gdjs.GiocoCode.GDTankObjects2.length = 0;
 
 
 gdjs.GiocoCode.condition0IsTrue_0.val = false;
 {
 {gdjs.GiocoCode.conditionTrue_1 = gdjs.GiocoCode.condition0IsTrue_0;
-gdjs.GiocoCode.GDPoliceObjects1_1final.length = 0;gdjs.GiocoCode.GDSuvTanObjects1_1final.length = 0;gdjs.GiocoCode.GDTankObjects1_1final.length = 0;gdjs.GiocoCode.condition0IsTrue_1.val = false;
+gdjs.GiocoCode.GDPoliceObjects2_1final.length = 0;gdjs.GiocoCode.GDPolice2Objects2_1final.length = 0;gdjs.GiocoCode.GDSuvTanObjects2_1final.length = 0;gdjs.GiocoCode.GDTankObjects2_1final.length = 0;gdjs.GiocoCode.condition0IsTrue_1.val = false;
 gdjs.GiocoCode.condition1IsTrue_1.val = false;
+gdjs.GiocoCode.condition2IsTrue_1.val = false;
 {
-gdjs.copyArray(runtimeScene.getObjects("Police"), gdjs.GiocoCode.GDPoliceObjects2);
-gdjs.copyArray(runtimeScene.getObjects("SuvTan"), gdjs.GiocoCode.GDSuvTanObjects2);
-gdjs.GiocoCode.condition0IsTrue_1.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPoliceObjects2Objects, gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDSuvTanObjects2Objects, false, runtimeScene, false);
+gdjs.copyArray(runtimeScene.getObjects("Police"), gdjs.GiocoCode.GDPoliceObjects3);
+gdjs.copyArray(runtimeScene.getObjects("SuvTan"), gdjs.GiocoCode.GDSuvTanObjects3);
+gdjs.GiocoCode.condition0IsTrue_1.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPoliceObjects3Objects, gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDSuvTanObjects3Objects, false, runtimeScene, false);
 if( gdjs.GiocoCode.condition0IsTrue_1.val ) {
     gdjs.GiocoCode.conditionTrue_1.val = true;
-    for(var j = 0, jLen = gdjs.GiocoCode.GDPoliceObjects2.length;j<jLen;++j) {
-        if ( gdjs.GiocoCode.GDPoliceObjects1_1final.indexOf(gdjs.GiocoCode.GDPoliceObjects2[j]) === -1 )
-            gdjs.GiocoCode.GDPoliceObjects1_1final.push(gdjs.GiocoCode.GDPoliceObjects2[j]);
+    for(var j = 0, jLen = gdjs.GiocoCode.GDPoliceObjects3.length;j<jLen;++j) {
+        if ( gdjs.GiocoCode.GDPoliceObjects2_1final.indexOf(gdjs.GiocoCode.GDPoliceObjects3[j]) === -1 )
+            gdjs.GiocoCode.GDPoliceObjects2_1final.push(gdjs.GiocoCode.GDPoliceObjects3[j]);
     }
-    for(var j = 0, jLen = gdjs.GiocoCode.GDSuvTanObjects2.length;j<jLen;++j) {
-        if ( gdjs.GiocoCode.GDSuvTanObjects1_1final.indexOf(gdjs.GiocoCode.GDSuvTanObjects2[j]) === -1 )
-            gdjs.GiocoCode.GDSuvTanObjects1_1final.push(gdjs.GiocoCode.GDSuvTanObjects2[j]);
+    for(var j = 0, jLen = gdjs.GiocoCode.GDSuvTanObjects3.length;j<jLen;++j) {
+        if ( gdjs.GiocoCode.GDSuvTanObjects2_1final.indexOf(gdjs.GiocoCode.GDSuvTanObjects3[j]) === -1 )
+            gdjs.GiocoCode.GDSuvTanObjects2_1final.push(gdjs.GiocoCode.GDSuvTanObjects3[j]);
     }
 }
 }
 {
-gdjs.copyArray(runtimeScene.getObjects("SuvTan"), gdjs.GiocoCode.GDSuvTanObjects2);
-gdjs.copyArray(runtimeScene.getObjects("Tank"), gdjs.GiocoCode.GDTankObjects2);
-gdjs.GiocoCode.condition1IsTrue_1.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDTankObjects2Objects, gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDSuvTanObjects2Objects, false, runtimeScene, false);
+gdjs.copyArray(runtimeScene.getObjects("Police2"), gdjs.GiocoCode.GDPolice2Objects3);
+gdjs.copyArray(runtimeScene.getObjects("SuvTan"), gdjs.GiocoCode.GDSuvTanObjects3);
+gdjs.GiocoCode.condition1IsTrue_1.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPolice2Objects3Objects, gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDSuvTanObjects3Objects, false, runtimeScene, false);
 if( gdjs.GiocoCode.condition1IsTrue_1.val ) {
     gdjs.GiocoCode.conditionTrue_1.val = true;
-    for(var j = 0, jLen = gdjs.GiocoCode.GDSuvTanObjects2.length;j<jLen;++j) {
-        if ( gdjs.GiocoCode.GDSuvTanObjects1_1final.indexOf(gdjs.GiocoCode.GDSuvTanObjects2[j]) === -1 )
-            gdjs.GiocoCode.GDSuvTanObjects1_1final.push(gdjs.GiocoCode.GDSuvTanObjects2[j]);
+    for(var j = 0, jLen = gdjs.GiocoCode.GDPolice2Objects3.length;j<jLen;++j) {
+        if ( gdjs.GiocoCode.GDPolice2Objects2_1final.indexOf(gdjs.GiocoCode.GDPolice2Objects3[j]) === -1 )
+            gdjs.GiocoCode.GDPolice2Objects2_1final.push(gdjs.GiocoCode.GDPolice2Objects3[j]);
     }
-    for(var j = 0, jLen = gdjs.GiocoCode.GDTankObjects2.length;j<jLen;++j) {
-        if ( gdjs.GiocoCode.GDTankObjects1_1final.indexOf(gdjs.GiocoCode.GDTankObjects2[j]) === -1 )
-            gdjs.GiocoCode.GDTankObjects1_1final.push(gdjs.GiocoCode.GDTankObjects2[j]);
+    for(var j = 0, jLen = gdjs.GiocoCode.GDSuvTanObjects3.length;j<jLen;++j) {
+        if ( gdjs.GiocoCode.GDSuvTanObjects2_1final.indexOf(gdjs.GiocoCode.GDSuvTanObjects3[j]) === -1 )
+            gdjs.GiocoCode.GDSuvTanObjects2_1final.push(gdjs.GiocoCode.GDSuvTanObjects3[j]);
     }
 }
 }
 {
-gdjs.copyArray(gdjs.GiocoCode.GDPoliceObjects1_1final, gdjs.GiocoCode.GDPoliceObjects1);
-gdjs.copyArray(gdjs.GiocoCode.GDSuvTanObjects1_1final, gdjs.GiocoCode.GDSuvTanObjects1);
-gdjs.copyArray(gdjs.GiocoCode.GDTankObjects1_1final, gdjs.GiocoCode.GDTankObjects1);
+gdjs.copyArray(runtimeScene.getObjects("SuvTan"), gdjs.GiocoCode.GDSuvTanObjects3);
+gdjs.copyArray(runtimeScene.getObjects("Tank"), gdjs.GiocoCode.GDTankObjects3);
+gdjs.GiocoCode.condition2IsTrue_1.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDTankObjects3Objects, gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDSuvTanObjects3Objects, false, runtimeScene, false);
+if( gdjs.GiocoCode.condition2IsTrue_1.val ) {
+    gdjs.GiocoCode.conditionTrue_1.val = true;
+    for(var j = 0, jLen = gdjs.GiocoCode.GDSuvTanObjects3.length;j<jLen;++j) {
+        if ( gdjs.GiocoCode.GDSuvTanObjects2_1final.indexOf(gdjs.GiocoCode.GDSuvTanObjects3[j]) === -1 )
+            gdjs.GiocoCode.GDSuvTanObjects2_1final.push(gdjs.GiocoCode.GDSuvTanObjects3[j]);
+    }
+    for(var j = 0, jLen = gdjs.GiocoCode.GDTankObjects3.length;j<jLen;++j) {
+        if ( gdjs.GiocoCode.GDTankObjects2_1final.indexOf(gdjs.GiocoCode.GDTankObjects3[j]) === -1 )
+            gdjs.GiocoCode.GDTankObjects2_1final.push(gdjs.GiocoCode.GDTankObjects3[j]);
+    }
+}
+}
+{
+gdjs.copyArray(gdjs.GiocoCode.GDPoliceObjects2_1final, gdjs.GiocoCode.GDPoliceObjects2);
+gdjs.copyArray(gdjs.GiocoCode.GDPolice2Objects2_1final, gdjs.GiocoCode.GDPolice2Objects2);
+gdjs.copyArray(gdjs.GiocoCode.GDSuvTanObjects2_1final, gdjs.GiocoCode.GDSuvTanObjects2);
+gdjs.copyArray(gdjs.GiocoCode.GDTankObjects2_1final, gdjs.GiocoCode.GDTankObjects2);
 }
 }
 }if (gdjs.GiocoCode.condition0IsTrue_0.val) {
-/* Reuse gdjs.GiocoCode.GDSuvTanObjects1 */
-gdjs.GiocoCode.GDExplosionPoofObjects1.length = 0;
+/* Reuse gdjs.GiocoCode.GDSuvTanObjects2 */
+gdjs.GiocoCode.GDExplosionPoofObjects2.length = 0;
 
-{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDExplosionPoofObjects1Objects, (( gdjs.GiocoCode.GDSuvTanObjects1.length === 0 ) ? 0 :gdjs.GiocoCode.GDSuvTanObjects1[0].getPointX("")) - 40, (( gdjs.GiocoCode.GDSuvTanObjects1.length === 0 ) ? 0 :gdjs.GiocoCode.GDSuvTanObjects1[0].getPointY("")) - 50, "");
-}{for(var i = 0, len = gdjs.GiocoCode.GDExplosionPoofObjects1.length ;i < len;++i) {
-    gdjs.GiocoCode.GDExplosionPoofObjects1[i].setSize(200, 200);
+{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDExplosionPoofObjects2Objects, (( gdjs.GiocoCode.GDSuvTanObjects2.length === 0 ) ? 0 :gdjs.GiocoCode.GDSuvTanObjects2[0].getPointX("")) - 40, (( gdjs.GiocoCode.GDSuvTanObjects2.length === 0 ) ? 0 :gdjs.GiocoCode.GDSuvTanObjects2[0].getPointY("")) - 50, "");
+}{for(var i = 0, len = gdjs.GiocoCode.GDExplosionPoofObjects2.length ;i < len;++i) {
+    gdjs.GiocoCode.GDExplosionPoofObjects2[i].setSize(200, 200);
 }
-}{for(var i = 0, len = gdjs.GiocoCode.GDExplosionPoofObjects1.length ;i < len;++i) {
-    gdjs.GiocoCode.GDExplosionPoofObjects1[i].setZOrder(2);
+}{for(var i = 0, len = gdjs.GiocoCode.GDExplosionPoofObjects2.length ;i < len;++i) {
+    gdjs.GiocoCode.GDExplosionPoofObjects2[i].setZOrder(2);
 }
-}{for(var i = 0, len = gdjs.GiocoCode.GDSuvTanObjects1.length ;i < len;++i) {
-    gdjs.GiocoCode.GDSuvTanObjects1[i].deleteFromScene(runtimeScene);
+}{for(var i = 0, len = gdjs.GiocoCode.GDSuvTanObjects2.length ;i < len;++i) {
+    gdjs.GiocoCode.GDSuvTanObjects2[i].deleteFromScene(runtimeScene);
+}
+}}
+
+}
+
+
+{
+
+
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Police"), gdjs.GiocoCode.GDPoliceObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Police2"), gdjs.GiocoCode.GDPolice2Objects2);
+
+gdjs.GiocoCode.condition0IsTrue_0.val = false;
+{
+gdjs.GiocoCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPoliceObjects2Objects, gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPolice2Objects2Objects, false, runtimeScene, false);
+}if (gdjs.GiocoCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.GiocoCode.GDPoliceObjects2 */
+{for(var i = 0, len = gdjs.GiocoCode.GDPoliceObjects2.length ;i < len;++i) {
+    gdjs.GiocoCode.GDPoliceObjects2[i].getBehavior("Pathfinding").setSpeed(0);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Police"), gdjs.GiocoCode.GDPoliceObjects1);
+gdjs.copyArray(runtimeScene.getObjects("Police2"), gdjs.GiocoCode.GDPolice2Objects1);
+
+gdjs.GiocoCode.condition0IsTrue_0.val = false;
+gdjs.GiocoCode.condition1IsTrue_0.val = false;
+{
+gdjs.GiocoCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPoliceObjects1Objects, gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPolice2Objects1Objects, true, runtimeScene, false);
+}if ( gdjs.GiocoCode.condition0IsTrue_0.val ) {
+{
+gdjs.GiocoCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(11)) != -(1);
+}}
+if (gdjs.GiocoCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.GiocoCode.GDPoliceObjects1 */
+{for(var i = 0, len = gdjs.GiocoCode.GDPoliceObjects1.length ;i < len;++i) {
+    gdjs.GiocoCode.GDPoliceObjects1[i].getBehavior("Pathfinding").setSpeed(70);
 }
 }}
 
@@ -1875,7 +2069,7 @@ gdjs.GiocoCode.GDTopArrowButtonObjects1.length = k;}if (gdjs.GiocoCode.condition
 }
 
 
-};gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPoliceObjects2Objects = Hashtable.newFrom({"Police": gdjs.GiocoCode.GDPoliceObjects2});
+};gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPolice2Objects2Objects = Hashtable.newFrom({"Police2": gdjs.GiocoCode.GDPolice2Objects2});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDTankObjects2Objects = Hashtable.newFrom({"Tank": gdjs.GiocoCode.GDTankObjects2});
 gdjs.GiocoCode.eventsList2 = function(runtimeScene) {
 
@@ -1951,21 +2145,21 @@ gdjs.GiocoCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber
 }if ( gdjs.GiocoCode.condition0IsTrue_0.val ) {
 {
 {gdjs.GiocoCode.conditionTrue_1 = gdjs.GiocoCode.condition1IsTrue_0;
-gdjs.GiocoCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9913404);
+gdjs.GiocoCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11237204);
 }
 }}
 if (gdjs.GiocoCode.condition1IsTrue_0.val) {
-gdjs.GiocoCode.GDPoliceObjects2.length = 0;
+gdjs.GiocoCode.GDPolice2Objects2.length = 0;
 
-{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPoliceObjects2Objects, 250, 1350, "");
-}{for(var i = 0, len = gdjs.GiocoCode.GDPoliceObjects2.length ;i < len;++i) {
-    gdjs.GiocoCode.GDPoliceObjects2[i].setSize(140, 100);
+{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPolice2Objects2Objects, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(8)), 1350, "");
+}{for(var i = 0, len = gdjs.GiocoCode.GDPolice2Objects2.length ;i < len;++i) {
+    gdjs.GiocoCode.GDPolice2Objects2[i].setSize(140, 100);
 }
-}{for(var i = 0, len = gdjs.GiocoCode.GDPoliceObjects2.length ;i < len;++i) {
-    gdjs.GiocoCode.GDPoliceObjects2[i].setZOrder(1);
+}{for(var i = 0, len = gdjs.GiocoCode.GDPolice2Objects2.length ;i < len;++i) {
+    gdjs.GiocoCode.GDPolice2Objects2[i].setZOrder(1);
 }
-}{for(var i = 0, len = gdjs.GiocoCode.GDPoliceObjects2.length ;i < len;++i) {
-    gdjs.GiocoCode.GDPoliceObjects2[i].rotateTowardAngle(270, 0, runtimeScene);
+}{for(var i = 0, len = gdjs.GiocoCode.GDPolice2Objects2.length ;i < len;++i) {
+    gdjs.GiocoCode.GDPolice2Objects2[i].rotateTowardAngle(270, 0, runtimeScene);
 }
 }}
 
@@ -2048,7 +2242,7 @@ gdjs.GiocoCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber
 }if ( gdjs.GiocoCode.condition0IsTrue_0.val ) {
 {
 {gdjs.GiocoCode.conditionTrue_1 = gdjs.GiocoCode.condition1IsTrue_0;
-gdjs.GiocoCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9917332);
+gdjs.GiocoCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11241404);
 }
 }}
 if (gdjs.GiocoCode.condition1IsTrue_0.val) {
@@ -2110,7 +2304,8 @@ gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDCarRedObjects2Objects = Hashtable.new
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDSuvTanObjects2Objects = Hashtable.newFrom({"SuvTan": gdjs.GiocoCode.GDSuvTanObjects2});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDConvertiblePurpleObjects2Objects = Hashtable.newFrom({"ConvertiblePurple": gdjs.GiocoCode.GDConvertiblePurpleObjects2});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDHeartObjects2Objects = Hashtable.newFrom({"Heart": gdjs.GiocoCode.GDHeartObjects2});
-gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPoliceObjects1Objects = Hashtable.newFrom({"Police": gdjs.GiocoCode.GDPoliceObjects1});
+gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPoliceObjects2Objects = Hashtable.newFrom({"Police": gdjs.GiocoCode.GDPoliceObjects2});
+gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPolice2Objects1Objects = Hashtable.newFrom({"Police2": gdjs.GiocoCode.GDPolice2Objects1});
 gdjs.GiocoCode.eventsList3 = function(runtimeScene) {
 
 {
@@ -2272,22 +2467,58 @@ gdjs.GiocoCode.GDHeartObjects2.length = 0;
 
 
 gdjs.GiocoCode.condition0IsTrue_0.val = false;
+gdjs.GiocoCode.condition1IsTrue_0.val = false;
 {
 gdjs.GiocoCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getVariables().getFromIndex(12), false);
-}if (gdjs.GiocoCode.condition0IsTrue_0.val) {
-gdjs.GiocoCode.GDPoliceObjects1.length = 0;
+}if ( gdjs.GiocoCode.condition0IsTrue_0.val ) {
+{
+gdjs.GiocoCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getVariables().getFromIndex(16), true);
+}}
+if (gdjs.GiocoCode.condition1IsTrue_0.val) {
+gdjs.GiocoCode.GDPoliceObjects2.length = 0;
 
-{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPoliceObjects1Objects, 250, 2000, "");
-}{for(var i = 0, len = gdjs.GiocoCode.GDPoliceObjects1.length ;i < len;++i) {
-    gdjs.GiocoCode.GDPoliceObjects1[i].rotateTowardAngle(270, 0, runtimeScene);
+{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPoliceObjects2Objects, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(8)), 2000, "");
+}{for(var i = 0, len = gdjs.GiocoCode.GDPoliceObjects2.length ;i < len;++i) {
+    gdjs.GiocoCode.GDPoliceObjects2[i].rotateTowardAngle(270, 0, runtimeScene);
 }
-}{for(var i = 0, len = gdjs.GiocoCode.GDPoliceObjects1.length ;i < len;++i) {
-    gdjs.GiocoCode.GDPoliceObjects1[i].setZOrder(2);
+}{for(var i = 0, len = gdjs.GiocoCode.GDPoliceObjects2.length ;i < len;++i) {
+    gdjs.GiocoCode.GDPoliceObjects2[i].setZOrder(1);
 }
-}{for(var i = 0, len = gdjs.GiocoCode.GDPoliceObjects1.length ;i < len;++i) {
-    gdjs.GiocoCode.GDPoliceObjects1[i].setSize(140, 100);
+}{for(var i = 0, len = gdjs.GiocoCode.GDPoliceObjects2.length ;i < len;++i) {
+    gdjs.GiocoCode.GDPoliceObjects2[i].setSize(140, 100);
 }
 }{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getVariables().getFromIndex(12), true);
+}}
+
+}
+
+
+{
+
+
+gdjs.GiocoCode.condition0IsTrue_0.val = false;
+gdjs.GiocoCode.condition1IsTrue_0.val = false;
+{
+gdjs.GiocoCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getVariables().getFromIndex(12), false);
+}if ( gdjs.GiocoCode.condition0IsTrue_0.val ) {
+{
+gdjs.GiocoCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getVariables().getFromIndex(16), false);
+}}
+if (gdjs.GiocoCode.condition1IsTrue_0.val) {
+gdjs.GiocoCode.GDPolice2Objects1.length = 0;
+
+{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPolice2Objects1Objects, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(8)), 2000, "");
+}{for(var i = 0, len = gdjs.GiocoCode.GDPolice2Objects1.length ;i < len;++i) {
+    gdjs.GiocoCode.GDPolice2Objects1[i].rotateTowardAngle(270, 0, runtimeScene);
+}
+}{for(var i = 0, len = gdjs.GiocoCode.GDPolice2Objects1.length ;i < len;++i) {
+    gdjs.GiocoCode.GDPolice2Objects1[i].setZOrder(1);
+}
+}{for(var i = 0, len = gdjs.GiocoCode.GDPolice2Objects1.length ;i < len;++i) {
+    gdjs.GiocoCode.GDPolice2Objects1[i].setSize(140, 100);
+}
+}{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getVariables().getFromIndex(12), true);
+}{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getVariables().getFromIndex(16), true);
 }}
 
 }
@@ -2308,6 +2539,29 @@ gdjs.GiocoCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber
 }}
 if (gdjs.GiocoCode.condition1IsTrue_0.val) {
 {runtimeScene.getVariables().getFromIndex(7).add(1);
+}}
+
+}
+
+
+{
+
+
+gdjs.GiocoCode.condition0IsTrue_0.val = false;
+gdjs.GiocoCode.condition1IsTrue_0.val = false;
+gdjs.GiocoCode.condition2IsTrue_0.val = false;
+{
+gdjs.GiocoCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "spawn") >= 2 * gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(9));
+}if ( gdjs.GiocoCode.condition0IsTrue_0.val ) {
+{
+gdjs.GiocoCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(11)) != -(1);
+}if ( gdjs.GiocoCode.condition1IsTrue_0.val ) {
+{
+gdjs.GiocoCode.condition2IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(7)) > 150;
+}}
+}
+if (gdjs.GiocoCode.condition2IsTrue_0.val) {
+{runtimeScene.getVariables().getFromIndex(7).add(2);
 }}
 
 }
@@ -2349,6 +2603,8 @@ gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDSuvTanObjects2Objects = Hashtable.new
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDExplosionPoofObjects2Objects = Hashtable.newFrom({"ExplosionPoof": gdjs.GiocoCode.GDExplosionPoofObjects2});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDSportsCarOrangeObjects2Objects = Hashtable.newFrom({"SportsCarOrange": gdjs.GiocoCode.GDSportsCarOrangeObjects2});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPoliceObjects2Objects = Hashtable.newFrom({"Police": gdjs.GiocoCode.GDPoliceObjects2});
+gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDSportsCarOrangeObjects2Objects = Hashtable.newFrom({"SportsCarOrange": gdjs.GiocoCode.GDSportsCarOrangeObjects2});
+gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPolice2Objects2Objects = Hashtable.newFrom({"Police2": gdjs.GiocoCode.GDPolice2Objects2});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDSportsCarOrangeObjects2Objects = Hashtable.newFrom({"SportsCarOrange": gdjs.GiocoCode.GDSportsCarOrangeObjects2});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDTankObjects2Objects = Hashtable.newFrom({"Tank": gdjs.GiocoCode.GDTankObjects2});
 gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDHeartObjects2Objects = Hashtable.newFrom({"Heart": gdjs.GiocoCode.GDHeartObjects2});
@@ -2639,6 +2895,26 @@ if (gdjs.GiocoCode.condition1IsTrue_0.val) {
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("Police2"), gdjs.GiocoCode.GDPolice2Objects2);
+gdjs.copyArray(runtimeScene.getObjects("SportsCarOrange"), gdjs.GiocoCode.GDSportsCarOrangeObjects2);
+
+gdjs.GiocoCode.condition0IsTrue_0.val = false;
+gdjs.GiocoCode.condition1IsTrue_0.val = false;
+{
+gdjs.GiocoCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDSportsCarOrangeObjects2Objects, gdjs.GiocoCode.mapOfGDgdjs_46GiocoCode_46GDPolice2Objects2Objects, false, runtimeScene, false);
+}if ( gdjs.GiocoCode.condition0IsTrue_0.val ) {
+{
+gdjs.GiocoCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(11)) == 0;
+}}
+if (gdjs.GiocoCode.condition1IsTrue_0.val) {
+{runtimeScene.getVariables().getFromIndex(11).setNumber(-(1));
+}}
+
+}
+
+
+{
+
 gdjs.copyArray(runtimeScene.getObjects("SportsCarOrange"), gdjs.GiocoCode.GDSportsCarOrangeObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Tank"), gdjs.GiocoCode.GDTankObjects2);
 
@@ -2717,12 +2993,13 @@ gdjs.GiocoCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber
 }if ( gdjs.GiocoCode.condition0IsTrue_0.val ) {
 {
 {gdjs.GiocoCode.conditionTrue_1 = gdjs.GiocoCode.condition1IsTrue_0;
-gdjs.GiocoCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12395348);
+gdjs.GiocoCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11274196);
 }
 }}
 if (gdjs.GiocoCode.condition1IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("LeftArrow"), gdjs.GiocoCode.GDLeftArrowObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Police"), gdjs.GiocoCode.GDPoliceObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Police2"), gdjs.GiocoCode.GDPolice2Objects2);
 gdjs.copyArray(runtimeScene.getObjects("RightArrowRoundButton"), gdjs.GiocoCode.GDRightArrowRoundButtonObjects2);
 gdjs.copyArray(runtimeScene.getObjects("SportsCarOrange"), gdjs.GiocoCode.GDSportsCarOrangeObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Tank"), gdjs.GiocoCode.GDTankObjects2);
@@ -2760,17 +3037,20 @@ gdjs.GiocoCode.GDFireBurningObjects2.length = 0;
 }{for(var i = 0, len = gdjs.GiocoCode.GDSportsCarOrangeObjects2.length ;i < len;++i) {
     gdjs.GiocoCode.GDSportsCarOrangeObjects2[i].pauseAnimation();
 }
-}{for(var i = 0, len = gdjs.GiocoCode.GDPoliceObjects2.length ;i < len;++i) {
-    gdjs.GiocoCode.GDPoliceObjects2[i].pauseAnimation();
-}
 }{for(var i = 0, len = gdjs.GiocoCode.GDTankObjects2.length ;i < len;++i) {
     gdjs.GiocoCode.GDTankObjects2[i].pauseAnimation();
 }
 }{for(var i = 0, len = gdjs.GiocoCode.GDPoliceObjects2.length ;i < len;++i) {
     gdjs.GiocoCode.GDPoliceObjects2[i].getBehavior("Pathfinding").setAcceleration(0);
 }
+}{for(var i = 0, len = gdjs.GiocoCode.GDPolice2Objects2.length ;i < len;++i) {
+    gdjs.GiocoCode.GDPolice2Objects2[i].getBehavior("Pathfinding").setAcceleration(0);
+}
 }{for(var i = 0, len = gdjs.GiocoCode.GDPoliceObjects2.length ;i < len;++i) {
     gdjs.GiocoCode.GDPoliceObjects2[i].getBehavior("Pathfinding").setMaxSpeed(0);
+}
+}{for(var i = 0, len = gdjs.GiocoCode.GDPolice2Objects2.length ;i < len;++i) {
+    gdjs.GiocoCode.GDPolice2Objects2[i].getBehavior("Pathfinding").setMaxSpeed(0);
 }
 }{for(var i = 0, len = gdjs.GiocoCode.GDTankObjects2.length ;i < len;++i) {
     gdjs.GiocoCode.GDTankObjects2[i].getBehavior("Pathfinding").setMaxSpeed(0);
@@ -2784,6 +3064,12 @@ gdjs.GiocoCode.GDFireBurningObjects2.length = 0;
 }{gdjs.evtTools.storage.unloadJSONFile("Memoria");
 }{gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 1);
 }{gdjs.evtTools.sound.playSound(runtimeScene, "car_crash_effect.mp3", false, 75, 1);
+}{for(var i = 0, len = gdjs.GiocoCode.GDPolice2Objects2.length ;i < len;++i) {
+    gdjs.GiocoCode.GDPolice2Objects2[i].clearForces();
+}
+}{for(var i = 0, len = gdjs.GiocoCode.GDPoliceObjects2.length ;i < len;++i) {
+    gdjs.GiocoCode.GDPoliceObjects2[i].clearForces();
+}
 }}
 
 }
@@ -2913,6 +3199,10 @@ gdjs.GiocoCode.GDPoliceObjects1.length = 0;
 gdjs.GiocoCode.GDPoliceObjects2.length = 0;
 gdjs.GiocoCode.GDPoliceObjects3.length = 0;
 gdjs.GiocoCode.GDPoliceObjects4.length = 0;
+gdjs.GiocoCode.GDPolice2Objects1.length = 0;
+gdjs.GiocoCode.GDPolice2Objects2.length = 0;
+gdjs.GiocoCode.GDPolice2Objects3.length = 0;
+gdjs.GiocoCode.GDPolice2Objects4.length = 0;
 gdjs.GiocoCode.GDTankObjects1.length = 0;
 gdjs.GiocoCode.GDTankObjects2.length = 0;
 gdjs.GiocoCode.GDTankObjects3.length = 0;

@@ -11,7 +11,7 @@ gdjs.evtsExt__InputValidation__CountNewLines.conditionTrue_0 = {val:false};
 gdjs.evtsExt__InputValidation__CountNewLines.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__InputValidation__CountNewLines.userFunc0x9aa680 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__InputValidation__CountNewLines.userFunc0x756db8 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = eventsFunctionContext.getArgument("text").split(/\r\n|\r|\n/).length;
 };
@@ -20,7 +20,7 @@ gdjs.evtsExt__InputValidation__CountNewLines.eventsList0 = function(runtimeScene
 {
 
 
-gdjs.evtsExt__InputValidation__CountNewLines.userFunc0x9aa680(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__InputValidation__CountNewLines.userFunc0x756db8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

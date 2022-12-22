@@ -51,7 +51,7 @@ gdjs.InizioCode.condition2IsTrue_0 = {val:false};
 gdjs.InizioCode.condition3IsTrue_0 = {val:false};
 
 
-gdjs.InizioCode.asyncCallback11873500 = function (runtimeScene, asyncObjectsList) {
+gdjs.InizioCode.asyncCallback11360820 = function (runtimeScene, asyncObjectsList) {
 }
 gdjs.InizioCode.eventsList0 = function(runtimeScene) {
 
@@ -61,7 +61,7 @@ gdjs.InizioCode.eventsList0 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.InizioCode.asyncCallback11873500(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.InizioCode.asyncCallback11360820(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -152,7 +152,7 @@ gdjs.InizioCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoole
 }
 
 
-};gdjs.InizioCode.asyncCallback11878444 = function (runtimeScene, asyncObjectsList) {
+};gdjs.InizioCode.asyncCallback11365764 = function (runtimeScene, asyncObjectsList) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Gioco", true);
 }
 { //Subevents
@@ -166,7 +166,7 @@ gdjs.InizioCode.eventsList3 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.6), (runtimeScene) => (gdjs.InizioCode.asyncCallback11878444(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.6), (runtimeScene) => (gdjs.InizioCode.asyncCallback11365764(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -189,7 +189,7 @@ gdjs.copyArray(runtimeScene.getObjects("cambianome"), gdjs.InizioCode.GDcambiano
 gdjs.copyArray(runtimeScene.getObjects("logo"), gdjs.InizioCode.GDlogoObjects1);
 gdjs.copyArray(runtimeScene.getObjects("ticket"), gdjs.InizioCode.GDticketObjects1);
 gdjs.copyArray(runtimeScene.getObjects("usrn"), gdjs.InizioCode.GDusrnObjects1);
-{gdjs.evtsExt__Iframe__Create.func(runtimeScene, "home", "/EdgeRunners/endgame.html", gdjs.evtTools.window.getWindowInnerWidth(), (gdjs.evtTools.window.getWindowInnerHeight() / 2) - 60, 0, (gdjs.evtTools.window.getWindowInnerHeight() / 2) - 20, true, false, "", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+{gdjs.evtsExt__Iframe__Create.func(runtimeScene, "home", "/MostWanted/endgame.html", gdjs.evtTools.window.getWindowInnerWidth(), (gdjs.evtTools.window.getWindowInnerHeight() / 2) - 60, 0, (gdjs.evtTools.window.getWindowInnerHeight() / 2) - 20, true, false, "", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }{firebase.analytics();
 }{firebase.performance();
 }{for(var i = 0, len = gdjs.InizioCode.GDusrnObjects1.length ;i < len;++i) {
