@@ -224,6 +224,10 @@ gdjs.copyArray(runtimeScene.getObjects("usrn"), gdjs.InizioCode.GDusrnObjects1);
 }
 }{gdjs.evtTools.sound.preloadMusic(runtimeScene, "assets\\mOSTWANTED.mp3");
 }{gdjs.evtTools.sound.preloadSound(runtimeScene, "car_crash_effect.mp3");
+}{gdjs.evtTools.storage.loadJSONFileFromStorage("Memoria");
+}{gdjs.evtTools.storage.readStringFromJSONFile("Memoria", "nome", runtimeScene, runtimeScene.getVariables().getFromIndex(1));
+}{gdjs.evtTools.storage.readNumberFromJSONFile("Memoria", "record", runtimeScene, runtimeScene.getVariables().getFromIndex(2));
+}{gdjs.evtTools.storage.unloadJSONFile("Memoria");
 }}
 
 }
@@ -250,8 +254,7 @@ gdjs.copyArray(runtimeScene.getObjects("Istruzioni"), gdjs.InizioCode.GDIstruzio
 gdjs.copyArray(runtimeScene.getObjects("bentornato"), gdjs.InizioCode.GDbentornatoObjects1);
 gdjs.copyArray(runtimeScene.getObjects("cambianome"), gdjs.InizioCode.GDcambianomeObjects1);
 gdjs.copyArray(runtimeScene.getObjects("usrn"), gdjs.InizioCode.GDusrnObjects1);
-{gdjs.evtTools.storage.loadJSONFileFromStorage("Memoria");
-}{for(var i = 0, len = gdjs.InizioCode.GDcambianomeObjects1.length ;i < len;++i) {
+{for(var i = 0, len = gdjs.InizioCode.GDcambianomeObjects1.length ;i < len;++i) {
     gdjs.InizioCode.GDcambianomeObjects1[i].setX(gdjs.InizioCode.GDcambianomeObjects1[i].getX() - (1000));
 }
 }{for(var i = 0, len = gdjs.InizioCode.GDcambianomeObjects1.length ;i < len;++i) {
@@ -260,8 +263,6 @@ gdjs.copyArray(runtimeScene.getObjects("usrn"), gdjs.InizioCode.GDusrnObjects1);
 }{for(var i = 0, len = gdjs.InizioCode.GDbentornatoObjects1.length ;i < len;++i) {
     gdjs.InizioCode.GDbentornatoObjects1[i].hide(false);
 }
-}{gdjs.evtTools.storage.readStringFromJSONFile("Memoria", "nome", runtimeScene, runtimeScene.getVariables().getFromIndex(1));
-}{gdjs.evtTools.storage.readNumberFromJSONFile("Memoria", "record", runtimeScene, runtimeScene.getVariables().getFromIndex(2));
 }{for(var i = 0, len = gdjs.InizioCode.GDbentornatoObjects1.length ;i < len;++i) {
     gdjs.InizioCode.GDbentornatoObjects1[i].setBBText("[outline=white]" + "[align=center]" + "[b]" + "Ciao " + "[color=red]" + gdjs.evtTools.variable.getVariableString(runtimeScene.getVariables().getFromIndex(1)) + "[/color]" + "." + "[/align]" + "[align=center]" + gdjs.evtTools.string.newLine() + "[b]" + "Il tuo record è " + "[color=red]" + gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(2))) + "[/color]" + "." + "[/b]" + "[/align]" + "[/outline]");
 }
@@ -277,7 +278,6 @@ gdjs.copyArray(runtimeScene.getObjects("usrn"), gdjs.InizioCode.GDusrnObjects1);
 }{for(var i = 0, len = gdjs.InizioCode.GDIstruzioniObjects1.length ;i < len;++i) {
     gdjs.InizioCode.GDIstruzioniObjects1[i].deleteFromScene(runtimeScene);
 }
-}{gdjs.evtTools.storage.unloadJSONFile("Memoria");
 }}
 
 }
