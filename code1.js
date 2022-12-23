@@ -51,7 +51,7 @@ gdjs.InizioCode.condition2IsTrue_0 = {val:false};
 gdjs.InizioCode.condition3IsTrue_0 = {val:false};
 
 
-gdjs.InizioCode.asyncCallback11360820 = function (runtimeScene, asyncObjectsList) {
+gdjs.InizioCode.asyncCallback13427420 = function (runtimeScene, asyncObjectsList) {
 }
 gdjs.InizioCode.eventsList0 = function(runtimeScene) {
 
@@ -61,7 +61,7 @@ gdjs.InizioCode.eventsList0 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.InizioCode.asyncCallback11360820(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.InizioCode.asyncCallback13427420(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -152,7 +152,7 @@ gdjs.InizioCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoole
 }
 
 
-};gdjs.InizioCode.asyncCallback11365764 = function (runtimeScene, asyncObjectsList) {
+};gdjs.InizioCode.asyncCallback13432364 = function (runtimeScene, asyncObjectsList) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Gioco", true);
 }
 { //Subevents
@@ -166,7 +166,7 @@ gdjs.InizioCode.eventsList3 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.6), (runtimeScene) => (gdjs.InizioCode.asyncCallback11365764(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.6), (runtimeScene) => (gdjs.InizioCode.asyncCallback13432364(runtimeScene, asyncObjectsList)));
 }
 }
 

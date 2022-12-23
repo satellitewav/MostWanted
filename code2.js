@@ -1,56 +1,121 @@
-gdjs.InizioCode = {};
-gdjs.InizioCode.GDlogoObjects1= [];
-gdjs.InizioCode.GDlogoObjects2= [];
-gdjs.InizioCode.GDistruzioniObjects1= [];
-gdjs.InizioCode.GDistruzioniObjects2= [];
-gdjs.InizioCode.GDusrnObjects1= [];
-gdjs.InizioCode.GDusrnObjects2= [];
-gdjs.InizioCode.GDHOMEObjects1= [];
-gdjs.InizioCode.GDHOMEObjects2= [];
+gdjs.fineCode = {};
+gdjs.fineCode.GDbgObjects1= [];
+gdjs.fineCode.GDbgObjects2= [];
+gdjs.fineCode.GDplayerObjects1= [];
+gdjs.fineCode.GDplayerObjects2= [];
+gdjs.fineCode.GDlogoObjects1= [];
+gdjs.fineCode.GDlogoObjects2= [];
+gdjs.fineCode.GDTankObjects1= [];
+gdjs.fineCode.GDTankObjects2= [];
+gdjs.fineCode.GDPoliceObjects1= [];
+gdjs.fineCode.GDPoliceObjects2= [];
+gdjs.fineCode.GDFireBurningObjects1= [];
+gdjs.fineCode.GDFireBurningObjects2= [];
+gdjs.fineCode.GDNewParticlesEmitterObjects1= [];
+gdjs.fineCode.GDNewParticlesEmitterObjects2= [];
+gdjs.fineCode.GDFemaleCharacter10Objects1= [];
+gdjs.fineCode.GDFemaleCharacter10Objects2= [];
+gdjs.fineCode.GDFemaleCharacter12Objects1= [];
+gdjs.fineCode.GDFemaleCharacter12Objects2= [];
+gdjs.fineCode.GDFemaleCharacter2Objects1= [];
+gdjs.fineCode.GDFemaleCharacter2Objects2= [];
+gdjs.fineCode.GDMaleCharacter9Objects1= [];
+gdjs.fineCode.GDMaleCharacter9Objects2= [];
+gdjs.fineCode.GDFemaleCharacter4Objects1= [];
+gdjs.fineCode.GDFemaleCharacter4Objects2= [];
+gdjs.fineCode.GDMaleCharacter5Objects1= [];
+gdjs.fineCode.GDMaleCharacter5Objects2= [];
+gdjs.fineCode.GDMaleCharacter12Objects1= [];
+gdjs.fineCode.GDMaleCharacter12Objects2= [];
+gdjs.fineCode.GDMaleCharacter11Objects1= [];
+gdjs.fineCode.GDMaleCharacter11Objects2= [];
+gdjs.fineCode.GDFemaleCharacter11Objects1= [];
+gdjs.fineCode.GDFemaleCharacter11Objects2= [];
+gdjs.fineCode.GDFemaleCharacter9Objects1= [];
+gdjs.fineCode.GDFemaleCharacter9Objects2= [];
+gdjs.fineCode.GDFemaleCharacter1Objects1= [];
+gdjs.fineCode.GDFemaleCharacter1Objects2= [];
+gdjs.fineCode.GDMaleCharacter10Objects1= [];
+gdjs.fineCode.GDMaleCharacter10Objects2= [];
+gdjs.fineCode.GDFemaleCharacter3Objects1= [];
+gdjs.fineCode.GDFemaleCharacter3Objects2= [];
+gdjs.fineCode.GDFemaleCharacter7Objects1= [];
+gdjs.fineCode.GDFemaleCharacter7Objects2= [];
+gdjs.fineCode.GDMaleCharacter2Objects1= [];
+gdjs.fineCode.GDMaleCharacter2Objects2= [];
+gdjs.fineCode.GDMaleCharacter6Objects1= [];
+gdjs.fineCode.GDMaleCharacter6Objects2= [];
+gdjs.fineCode.GDMaleCharacter7Objects1= [];
+gdjs.fineCode.GDMaleCharacter7Objects2= [];
+gdjs.fineCode.GDFemaleCharacter8Objects1= [];
+gdjs.fineCode.GDFemaleCharacter8Objects2= [];
+gdjs.fineCode.GDMaleCharacter4Objects1= [];
+gdjs.fineCode.GDMaleCharacter4Objects2= [];
+gdjs.fineCode.GDMaleCharacter8Objects1= [];
+gdjs.fineCode.GDMaleCharacter8Objects2= [];
+gdjs.fineCode.GDFemaleCharacter5Objects1= [];
+gdjs.fineCode.GDFemaleCharacter5Objects2= [];
+gdjs.fineCode.GDMaleCharacter1Objects1= [];
+gdjs.fineCode.GDMaleCharacter1Objects2= [];
+gdjs.fineCode.GDMaleCharacter3Objects1= [];
+gdjs.fineCode.GDMaleCharacter3Objects2= [];
+gdjs.fineCode.GDFemaleCharacter6Objects1= [];
+gdjs.fineCode.GDFemaleCharacter6Objects2= [];
+gdjs.fineCode.GDFlagObjects1= [];
+gdjs.fineCode.GDFlagObjects2= [];
+gdjs.fineCode.GDMuscleCarBlueObjects1= [];
+gdjs.fineCode.GDMuscleCarBlueObjects2= [];
+gdjs.fineCode.GDCarBlueObjects1= [];
+gdjs.fineCode.GDCarBlueObjects2= [];
+gdjs.fineCode.GDCarRedObjects1= [];
+gdjs.fineCode.GDCarRedObjects2= [];
+gdjs.fineCode.GDSuvTanObjects1= [];
+gdjs.fineCode.GDSuvTanObjects2= [];
+gdjs.fineCode.GDConvertiblePurpleObjects1= [];
+gdjs.fineCode.GDConvertiblePurpleObjects2= [];
+gdjs.fineCode.GDJeepBriteGreenObjects1= [];
+gdjs.fineCode.GDJeepBriteGreenObjects2= [];
+gdjs.fineCode.GDNewBBTextObjects1= [];
+gdjs.fineCode.GDNewBBTextObjects2= [];
+gdjs.fineCode.GDwinObjects1= [];
+gdjs.fineCode.GDwinObjects2= [];
+gdjs.fineCode.GDBarrierObjects1= [];
+gdjs.fineCode.GDBarrierObjects2= [];
+gdjs.fineCode.GDprimoObjects1= [];
+gdjs.fineCode.GDprimoObjects2= [];
+gdjs.fineCode.GDsecondoObjects1= [];
+gdjs.fineCode.GDsecondoObjects2= [];
+gdjs.fineCode.GDterzoObjects1= [];
+gdjs.fineCode.GDterzoObjects2= [];
+gdjs.fineCode.GDNewSpriteObjects1= [];
+gdjs.fineCode.GDNewSpriteObjects2= [];
 
-gdjs.InizioCode.conditionTrue_0 = {val:false};
-gdjs.InizioCode.condition0IsTrue_0 = {val:false};
-gdjs.InizioCode.condition1IsTrue_0 = {val:false};
+gdjs.fineCode.conditionTrue_0 = {val:false};
+gdjs.fineCode.condition0IsTrue_0 = {val:false};
+gdjs.fineCode.condition1IsTrue_0 = {val:false};
 
 
-gdjs.InizioCode.eventsList0 = function(runtimeScene) {
+gdjs.fineCode.eventsList0 = function(runtimeScene) {
 
 {
 
 
-gdjs.InizioCode.condition0IsTrue_0.val = false;
+gdjs.fineCode.condition0IsTrue_0.val = false;
 {
-gdjs.InizioCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
-}if (gdjs.InizioCode.condition0IsTrue_0.val) {
-{gdjs.evtsExt__Iframe__Create.func(runtimeScene, "home", "/endgame.html", gdjs.evtTools.window.getWindowInnerWidth(), gdjs.evtTools.window.getWindowInnerHeight() / 2, 0, gdjs.evtTools.window.getWindowInnerHeight() / 2, true, false, "", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}{firebase.analytics();
-}{firebase.performance();
-}}
-
+gdjs.fineCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+}if (gdjs.fineCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("NewBBText"), gdjs.fineCode.GDNewBBTextObjects1);
+gdjs.copyArray(runtimeScene.getObjects("player"), gdjs.fineCode.GDplayerObjects1);
+gdjs.copyArray(runtimeScene.getObjects("win"), gdjs.fineCode.GDwinObjects1);
+{for(var i = 0, len = gdjs.fineCode.GDplayerObjects1.length ;i < len;++i) {
+    gdjs.fineCode.GDplayerObjects1[i].setCenterXInScene(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2);
 }
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("HOME"), gdjs.InizioCode.GDHOMEObjects1);
-
-gdjs.InizioCode.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.InizioCode.GDHOMEObjects1.length;i<l;++i) {
-    if ( gdjs.InizioCode.GDHOMEObjects1[i].IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
-        gdjs.InizioCode.condition0IsTrue_0.val = true;
-        gdjs.InizioCode.GDHOMEObjects1[k] = gdjs.InizioCode.GDHOMEObjects1[i];
-        ++k;
-    }
+}{for(var i = 0, len = gdjs.fineCode.GDNewBBTextObjects1.length ;i < len;++i) {
+    gdjs.fineCode.GDNewBBTextObjects1[i].setCenterXInScene(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2);
 }
-gdjs.InizioCode.GDHOMEObjects1.length = k;}if (gdjs.InizioCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("usrn"), gdjs.InizioCode.GDusrnObjects1);
-{gdjs.evtsExt__Iframe__Delete.func(runtimeScene, "home", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Gioco", true);
-}{runtimeScene.getGame().getVariables().getFromIndex(0).setString((( gdjs.InizioCode.GDusrnObjects1.length === 0 ) ? "" :gdjs.InizioCode.GDusrnObjects1[0].getString()));
-}{runtimeScene.getGame().getVariables().getFromIndex(0).setString(gdjs.evtsExt__InputValidation__ToAlphanumerical.func(runtimeScene, gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
-}{gdjs.evtTools.firebaseTools.analytics.log("avvio da home", "");
-}{gdjs.evtTools.firebaseTools.performance.startTracer("durata partita");
+}{for(var i = 0, len = gdjs.fineCode.GDwinObjects1.length ;i < len;++i) {
+    gdjs.fineCode.GDwinObjects1[i].setCenterXInScene(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2);
+}
 }}
 
 }
@@ -58,22 +123,104 @@ gdjs.copyArray(runtimeScene.getObjects("usrn"), gdjs.InizioCode.GDusrnObjects1);
 
 };
 
-gdjs.InizioCode.func = function(runtimeScene) {
+gdjs.fineCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
-gdjs.InizioCode.GDlogoObjects1.length = 0;
-gdjs.InizioCode.GDlogoObjects2.length = 0;
-gdjs.InizioCode.GDistruzioniObjects1.length = 0;
-gdjs.InizioCode.GDistruzioniObjects2.length = 0;
-gdjs.InizioCode.GDusrnObjects1.length = 0;
-gdjs.InizioCode.GDusrnObjects2.length = 0;
-gdjs.InizioCode.GDHOMEObjects1.length = 0;
-gdjs.InizioCode.GDHOMEObjects2.length = 0;
+gdjs.fineCode.GDbgObjects1.length = 0;
+gdjs.fineCode.GDbgObjects2.length = 0;
+gdjs.fineCode.GDplayerObjects1.length = 0;
+gdjs.fineCode.GDplayerObjects2.length = 0;
+gdjs.fineCode.GDlogoObjects1.length = 0;
+gdjs.fineCode.GDlogoObjects2.length = 0;
+gdjs.fineCode.GDTankObjects1.length = 0;
+gdjs.fineCode.GDTankObjects2.length = 0;
+gdjs.fineCode.GDPoliceObjects1.length = 0;
+gdjs.fineCode.GDPoliceObjects2.length = 0;
+gdjs.fineCode.GDFireBurningObjects1.length = 0;
+gdjs.fineCode.GDFireBurningObjects2.length = 0;
+gdjs.fineCode.GDNewParticlesEmitterObjects1.length = 0;
+gdjs.fineCode.GDNewParticlesEmitterObjects2.length = 0;
+gdjs.fineCode.GDFemaleCharacter10Objects1.length = 0;
+gdjs.fineCode.GDFemaleCharacter10Objects2.length = 0;
+gdjs.fineCode.GDFemaleCharacter12Objects1.length = 0;
+gdjs.fineCode.GDFemaleCharacter12Objects2.length = 0;
+gdjs.fineCode.GDFemaleCharacter2Objects1.length = 0;
+gdjs.fineCode.GDFemaleCharacter2Objects2.length = 0;
+gdjs.fineCode.GDMaleCharacter9Objects1.length = 0;
+gdjs.fineCode.GDMaleCharacter9Objects2.length = 0;
+gdjs.fineCode.GDFemaleCharacter4Objects1.length = 0;
+gdjs.fineCode.GDFemaleCharacter4Objects2.length = 0;
+gdjs.fineCode.GDMaleCharacter5Objects1.length = 0;
+gdjs.fineCode.GDMaleCharacter5Objects2.length = 0;
+gdjs.fineCode.GDMaleCharacter12Objects1.length = 0;
+gdjs.fineCode.GDMaleCharacter12Objects2.length = 0;
+gdjs.fineCode.GDMaleCharacter11Objects1.length = 0;
+gdjs.fineCode.GDMaleCharacter11Objects2.length = 0;
+gdjs.fineCode.GDFemaleCharacter11Objects1.length = 0;
+gdjs.fineCode.GDFemaleCharacter11Objects2.length = 0;
+gdjs.fineCode.GDFemaleCharacter9Objects1.length = 0;
+gdjs.fineCode.GDFemaleCharacter9Objects2.length = 0;
+gdjs.fineCode.GDFemaleCharacter1Objects1.length = 0;
+gdjs.fineCode.GDFemaleCharacter1Objects2.length = 0;
+gdjs.fineCode.GDMaleCharacter10Objects1.length = 0;
+gdjs.fineCode.GDMaleCharacter10Objects2.length = 0;
+gdjs.fineCode.GDFemaleCharacter3Objects1.length = 0;
+gdjs.fineCode.GDFemaleCharacter3Objects2.length = 0;
+gdjs.fineCode.GDFemaleCharacter7Objects1.length = 0;
+gdjs.fineCode.GDFemaleCharacter7Objects2.length = 0;
+gdjs.fineCode.GDMaleCharacter2Objects1.length = 0;
+gdjs.fineCode.GDMaleCharacter2Objects2.length = 0;
+gdjs.fineCode.GDMaleCharacter6Objects1.length = 0;
+gdjs.fineCode.GDMaleCharacter6Objects2.length = 0;
+gdjs.fineCode.GDMaleCharacter7Objects1.length = 0;
+gdjs.fineCode.GDMaleCharacter7Objects2.length = 0;
+gdjs.fineCode.GDFemaleCharacter8Objects1.length = 0;
+gdjs.fineCode.GDFemaleCharacter8Objects2.length = 0;
+gdjs.fineCode.GDMaleCharacter4Objects1.length = 0;
+gdjs.fineCode.GDMaleCharacter4Objects2.length = 0;
+gdjs.fineCode.GDMaleCharacter8Objects1.length = 0;
+gdjs.fineCode.GDMaleCharacter8Objects2.length = 0;
+gdjs.fineCode.GDFemaleCharacter5Objects1.length = 0;
+gdjs.fineCode.GDFemaleCharacter5Objects2.length = 0;
+gdjs.fineCode.GDMaleCharacter1Objects1.length = 0;
+gdjs.fineCode.GDMaleCharacter1Objects2.length = 0;
+gdjs.fineCode.GDMaleCharacter3Objects1.length = 0;
+gdjs.fineCode.GDMaleCharacter3Objects2.length = 0;
+gdjs.fineCode.GDFemaleCharacter6Objects1.length = 0;
+gdjs.fineCode.GDFemaleCharacter6Objects2.length = 0;
+gdjs.fineCode.GDFlagObjects1.length = 0;
+gdjs.fineCode.GDFlagObjects2.length = 0;
+gdjs.fineCode.GDMuscleCarBlueObjects1.length = 0;
+gdjs.fineCode.GDMuscleCarBlueObjects2.length = 0;
+gdjs.fineCode.GDCarBlueObjects1.length = 0;
+gdjs.fineCode.GDCarBlueObjects2.length = 0;
+gdjs.fineCode.GDCarRedObjects1.length = 0;
+gdjs.fineCode.GDCarRedObjects2.length = 0;
+gdjs.fineCode.GDSuvTanObjects1.length = 0;
+gdjs.fineCode.GDSuvTanObjects2.length = 0;
+gdjs.fineCode.GDConvertiblePurpleObjects1.length = 0;
+gdjs.fineCode.GDConvertiblePurpleObjects2.length = 0;
+gdjs.fineCode.GDJeepBriteGreenObjects1.length = 0;
+gdjs.fineCode.GDJeepBriteGreenObjects2.length = 0;
+gdjs.fineCode.GDNewBBTextObjects1.length = 0;
+gdjs.fineCode.GDNewBBTextObjects2.length = 0;
+gdjs.fineCode.GDwinObjects1.length = 0;
+gdjs.fineCode.GDwinObjects2.length = 0;
+gdjs.fineCode.GDBarrierObjects1.length = 0;
+gdjs.fineCode.GDBarrierObjects2.length = 0;
+gdjs.fineCode.GDprimoObjects1.length = 0;
+gdjs.fineCode.GDprimoObjects2.length = 0;
+gdjs.fineCode.GDsecondoObjects1.length = 0;
+gdjs.fineCode.GDsecondoObjects2.length = 0;
+gdjs.fineCode.GDterzoObjects1.length = 0;
+gdjs.fineCode.GDterzoObjects2.length = 0;
+gdjs.fineCode.GDNewSpriteObjects1.length = 0;
+gdjs.fineCode.GDNewSpriteObjects2.length = 0;
 
-gdjs.InizioCode.eventsList0(runtimeScene);
+gdjs.fineCode.eventsList0(runtimeScene);
 
 return;
 
 }
 
-gdjs['InizioCode'] = gdjs.InizioCode;
+gdjs['fineCode'] = gdjs.fineCode;
