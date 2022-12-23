@@ -3158,7 +3158,7 @@ for(var i = 0, k = 0, l = gdjs.GiocoCode.GDHOMEObjects2.length;i<l;++i) {
 }
 gdjs.GiocoCode.GDHOMEObjects2.length = k;}if (gdjs.GiocoCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.firebaseTools.analytics.log("premuto home", "");
-}{gdjs.evtsExt__URLTools__Reload.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Inizio", true);
 }}
 
 }
