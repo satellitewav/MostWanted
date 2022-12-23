@@ -1,7 +1,7 @@
 {
   "name": "Satellite: MOST WANTED",
   "short_name": "Satellite: MOST WANTED",
-  "id": "com.example.gamename",
+  "id": "io.github.satellitewav.mostwanted",
   "description": "",
   "orientation": "portrait",
   "start_url": "./index.html",
