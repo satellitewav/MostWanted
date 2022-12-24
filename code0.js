@@ -2205,7 +2205,7 @@ gdjs.GiocoCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber
 }if ( gdjs.GiocoCode.condition0IsTrue_0.val ) {
 {
 {gdjs.GiocoCode.conditionTrue_1 = gdjs.GiocoCode.condition1IsTrue_0;
-gdjs.GiocoCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13291812);
+gdjs.GiocoCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13344036);
 }
 }}
 if (gdjs.GiocoCode.condition1IsTrue_0.val) {
@@ -2302,7 +2302,7 @@ gdjs.GiocoCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber
 }if ( gdjs.GiocoCode.condition0IsTrue_0.val ) {
 {
 {gdjs.GiocoCode.conditionTrue_1 = gdjs.GiocoCode.condition1IsTrue_0;
-gdjs.GiocoCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13296036);
+gdjs.GiocoCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13348260);
 }
 }}
 if (gdjs.GiocoCode.condition1IsTrue_0.val) {
@@ -3053,7 +3053,7 @@ gdjs.GiocoCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber
 }if ( gdjs.GiocoCode.condition0IsTrue_0.val ) {
 {
 {gdjs.GiocoCode.conditionTrue_1 = gdjs.GiocoCode.condition1IsTrue_0;
-gdjs.GiocoCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13332876);
+gdjs.GiocoCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13385100);
 }
 }}
 if (gdjs.GiocoCode.condition1IsTrue_0.val) {
