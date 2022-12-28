@@ -5,78 +5,81 @@ gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton = gdjs.evtsExt__PanelSpriteBu
  * Object generated from Panel sprite button
  */
 gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton = class PanelSpriteButton extends gdjs.CustomRuntimeObject {
-  constructor(runtimeScene, objectData) {
-    super(runtimeScene, objectData);
-    this._runtimeScene = runtimeScene;
+  constructor(parentInstanceContainer, objectData) {
+    super(parentInstanceContainer, objectData);
+    this._parentInstanceContainer = parentInstanceContainer;
 
     this._onceTriggers = new gdjs.OnceTriggers();
-    this._behaviorData = {};
+    this._objectData = {};
     
-    this._objectData.content.PressedLabelOffsetY = objectData.content.PressedLabelOffsetY !== undefined ? objectData.content.PressedLabelOffsetY : Number("0") || 0;
-    this._objectData.content.LeftPadding = objectData.content.LeftPadding !== undefined ? objectData.content.LeftPadding : Number("0") || 0;
-    this._objectData.content.RightPadding = objectData.content.RightPadding !== undefined ? objectData.content.RightPadding : Number("0") || 0;
-    this._objectData.content.TopPadding = objectData.content.TopPadding !== undefined ? objectData.content.TopPadding : Number("0") || 0;
-    this._objectData.content.BottomPadding = objectData.content.BottomPadding !== undefined ? objectData.content.BottomPadding : Number("0") || 0;
-    this._objectData.content.HoveredFadeOutDuration = objectData.content.HoveredFadeOutDuration !== undefined ? objectData.content.HoveredFadeOutDuration : Number("0.25") || 0;
+    this._objectData.PressedLabelOffsetY = objectData.content.PressedLabelOffsetY !== undefined ? objectData.content.PressedLabelOffsetY : Number("0") || 0;
+    this._objectData.LeftPadding = objectData.content.LeftPadding !== undefined ? objectData.content.LeftPadding : Number("0") || 0;
+    this._objectData.RightPadding = objectData.content.RightPadding !== undefined ? objectData.content.RightPadding : Number("0") || 0;
+    this._objectData.TopPadding = objectData.content.TopPadding !== undefined ? objectData.content.TopPadding : Number("0") || 0;
+    this._objectData.BottomPadding = objectData.content.BottomPadding !== undefined ? objectData.content.BottomPadding : Number("0") || 0;
+    this._objectData.HoveredFadeOutDuration = objectData.content.HoveredFadeOutDuration !== undefined ? objectData.content.HoveredFadeOutDuration : Number("0.25") || 0;
+
+    // It calls the onCreated super implementation at the end.
+    this.onCreated();
   }
 
   // Hot-reload:
   updateFromObjectData(oldObjectData, newObjectData) {
     super.updateFromObjectData(oldObjectData, newObjectData);
     if (oldObjectData.content.PressedLabelOffsetY !== newObjectData.content.PressedLabelOffsetY)
-      this._objectData.content.PressedLabelOffsetY = newObjectData.content.PressedLabelOffsetY;
+      this._objectData.PressedLabelOffsetY = newObjectData.content.PressedLabelOffsetY;
     if (oldObjectData.content.LeftPadding !== newObjectData.content.LeftPadding)
-      this._objectData.content.LeftPadding = newObjectData.content.LeftPadding;
+      this._objectData.LeftPadding = newObjectData.content.LeftPadding;
     if (oldObjectData.content.RightPadding !== newObjectData.content.RightPadding)
-      this._objectData.content.RightPadding = newObjectData.content.RightPadding;
+      this._objectData.RightPadding = newObjectData.content.RightPadding;
     if (oldObjectData.content.TopPadding !== newObjectData.content.TopPadding)
-      this._objectData.content.TopPadding = newObjectData.content.TopPadding;
+      this._objectData.TopPadding = newObjectData.content.TopPadding;
     if (oldObjectData.content.BottomPadding !== newObjectData.content.BottomPadding)
-      this._objectData.content.BottomPadding = newObjectData.content.BottomPadding;
+      this._objectData.BottomPadding = newObjectData.content.BottomPadding;
     if (oldObjectData.content.HoveredFadeOutDuration !== newObjectData.content.HoveredFadeOutDuration)
-      this._objectData.content.HoveredFadeOutDuration = newObjectData.content.HoveredFadeOutDuration;
+      this._objectData.HoveredFadeOutDuration = newObjectData.content.HoveredFadeOutDuration;
 
-    this.onHotReloading(this.getInstanceContainer());
+    this.onHotReloading(this._parentInstanceContainer);
     return true;
   }
 
   // Properties:
   
   _getPressedLabelOffsetY() {
-    return this._objectData.content.PressedLabelOffsetY !== undefined ? this._objectData.content.PressedLabelOffsetY : Number("0") || 0;
+    return this._objectData.PressedLabelOffsetY !== undefined ? this._objectData.PressedLabelOffsetY : Number("0") || 0;
   }
   _setPressedLabelOffsetY(newValue) {
-    this._objectData.content.PressedLabelOffsetY = newValue;
+    this._objectData.PressedLabelOffsetY = newValue;
   }
   _getLeftPadding() {
-    return this._objectData.content.LeftPadding !== undefined ? this._objectData.content.LeftPadding : Number("0") || 0;
+    return this._objectData.LeftPadding !== undefined ? this._objectData.LeftPadding : Number("0") || 0;
   }
   _setLeftPadding(newValue) {
-    this._objectData.content.LeftPadding = newValue;
+    this._objectData.LeftPadding = newValue;
   }
   _getRightPadding() {
-    return this._objectData.content.RightPadding !== undefined ? this._objectData.content.RightPadding : Number("0") || 0;
+    return this._objectData.RightPadding !== undefined ? this._objectData.RightPadding : Number("0") || 0;
   }
   _setRightPadding(newValue) {
-    this._objectData.content.RightPadding = newValue;
+    this._objectData.RightPadding = newValue;
   }
   _getTopPadding() {
-    return this._objectData.content.TopPadding !== undefined ? this._objectData.content.TopPadding : Number("0") || 0;
+    return this._objectData.TopPadding !== undefined ? this._objectData.TopPadding : Number("0") || 0;
   }
   _setTopPadding(newValue) {
-    this._objectData.content.TopPadding = newValue;
+    this._objectData.TopPadding = newValue;
   }
   _getBottomPadding() {
-    return this._objectData.content.BottomPadding !== undefined ? this._objectData.content.BottomPadding : Number("0") || 0;
+    return this._objectData.BottomPadding !== undefined ? this._objectData.BottomPadding : Number("0") || 0;
   }
   _setBottomPadding(newValue) {
-    this._objectData.content.BottomPadding = newValue;
+    this._objectData.BottomPadding = newValue;
   }
   _getHoveredFadeOutDuration() {
-    return this._objectData.content.HoveredFadeOutDuration !== undefined ? this._objectData.content.HoveredFadeOutDuration : Number("0.25") || 0;
+    return this._objectData.HoveredFadeOutDuration !== undefined ? this._objectData.HoveredFadeOutDuration : Number("0.25") || 0;
   }
   _setHoveredFadeOutDuration(newValue) {
-    this._objectData.content.HoveredFadeOutDuration = newValue;
+    this._objectData.HoveredFadeOutDuration = newValue;
   }
 }
 
@@ -511,7 +514,7 @@ for(var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.Pan
 gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.GDObjectObjects2.length = k;}if ( gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.condition0IsTrue_0.val ) {
 {
 {gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.conditionTrue_1 = gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.condition1IsTrue_0;
-gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(13052780);
+gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(13239156);
 }
 }}
 if (gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.condition1IsTrue_0.val) {
@@ -579,7 +582,7 @@ for(var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.Pan
 gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.GDObjectObjects2.length = k;}if ( gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.condition0IsTrue_0.val ) {
 {
 {gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.conditionTrue_1 = gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.condition1IsTrue_0;
-gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(13055956);
+gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(13242332);
 }
 }}
 if (gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.condition1IsTrue_0.val) {
@@ -628,7 +631,7 @@ for(var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.Pan
 gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.GDObjectObjects2.length = k;}if ( gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.condition0IsTrue_0.val ) {
 {
 {gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.conditionTrue_1 = gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.condition1IsTrue_0;
-gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(13057708);
+gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(13244084);
 }
 }}
 if (gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.condition1IsTrue_0.val) {
@@ -671,7 +674,7 @@ for(var i = 0, k = 0, l = gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.Pan
 gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.GDObjectObjects1.length = k;}if ( gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.condition0IsTrue_0.val ) {
 {
 {gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.conditionTrue_1 = gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.condition1IsTrue_0;
-gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(13058748);
+gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.conditionTrue_1.val = eventsFunctionContext.getOnceTriggers().triggerOnce(13245124);
 }
 }}
 if (gdjs.evtsExt__PanelSpriteButton__PanelSpriteButton.PanelSpriteButton.prototype.doStepPostEventsContext.condition1IsTrue_0.val) {
