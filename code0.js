@@ -113,12 +113,15 @@ gdjs.fineCode.GDlinksecondoObjects1= [];
 gdjs.fineCode.GDlinksecondoObjects2= [];
 gdjs.fineCode.GDlinkterzoObjects1= [];
 gdjs.fineCode.GDlinkterzoObjects2= [];
+gdjs.fineCode.GDHomeObjects1= [];
+gdjs.fineCode.GDHomeObjects2= [];
 
 gdjs.fineCode.conditionTrue_0 = {val:false};
 gdjs.fineCode.condition0IsTrue_0 = {val:false};
 gdjs.fineCode.condition1IsTrue_0 = {val:false};
 
 
+gdjs.fineCode.mapOfGDgdjs_46fineCode_46GDHomeObjects1Objects = Hashtable.newFrom({"Home": gdjs.fineCode.GDHomeObjects1});
 gdjs.fineCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -200,6 +203,20 @@ for(var i = 0, k = 0, l = gdjs.fineCode.GDlinkterzoObjects1.length;i<l;++i) {
 }
 gdjs.fineCode.GDlinkterzoObjects1.length = k;}if (gdjs.fineCode.condition0IsTrue_0.val) {
 {gdjs.evtsExt__URLTools__Redirect.func(runtimeScene, "https://www.instagram.com/nicolol._/", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Home"), gdjs.fineCode.GDHomeObjects1);
+
+gdjs.fineCode.condition0IsTrue_0.val = false;
+{
+gdjs.fineCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.fineCode.mapOfGDgdjs_46fineCode_46GDHomeObjects1Objects, runtimeScene, true, false);
+}if (gdjs.fineCode.condition0IsTrue_0.val) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Inizio", true);
 }}
 
 }
@@ -324,6 +341,8 @@ gdjs.fineCode.GDlinksecondoObjects1.length = 0;
 gdjs.fineCode.GDlinksecondoObjects2.length = 0;
 gdjs.fineCode.GDlinkterzoObjects1.length = 0;
 gdjs.fineCode.GDlinkterzoObjects2.length = 0;
+gdjs.fineCode.GDHomeObjects1.length = 0;
+gdjs.fineCode.GDHomeObjects2.length = 0;
 
 gdjs.fineCode.eventsList0(runtimeScene);
 
