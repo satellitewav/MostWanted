@@ -1,2 +1,0 @@
-var gdjs;(function(n){let p;(function(a){let i;(function(c){let o;(function(e){const r=new Map;e.getTracer=t=>(r.has(t)||r.set(t,firebase.performance().trace(t)),r.get(t)),e.startTracer=t=>{e.getTracer(t).start()},e.stopTracer=t=>{e.getTracer(t).stop(),delete r[t]},e.recordPerformance=(t,x,g)=>{e.getTracer(t).record(Date.now()+x,g)}})(o=c.performance||(c.performance={}))})(i=a.firebaseTools||(a.firebaseTools={}))})(p=n.evtTools||(n.evtTools={}))})(gdjs||(gdjs={}));
-//# sourceMappingURL=D_performancetools.js.map
