@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__InputValidation__IsValidEmail !== "undefined") {
 gdjs.evtsExt__InputValidation__IsValidEmail = {};
 
 
-gdjs.evtsExt__InputValidation__IsValidEmail.userFunc0x952178 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__InputValidation__IsValidEmail.userFunc0x1447610 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 const email = eventsFunctionContext.getArgument("email");
 const n = /(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))/;
@@ -20,7 +20,7 @@ gdjs.evtsExt__InputValidation__IsValidEmail.eventsList0 = function(runtimeScene,
 {
 
 
-gdjs.evtsExt__InputValidation__IsValidEmail.userFunc0x952178(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__InputValidation__IsValidEmail.userFunc0x1447610(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

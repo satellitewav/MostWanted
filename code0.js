@@ -180,7 +180,7 @@ for (var i = 0, k = 0, l = gdjs.fineCode.GDlinksecondoObjects1.length;i<l;++i) {
 }
 gdjs.fineCode.GDlinksecondoObjects1.length = k;
 if (isConditionTrue_0) {
-{gdjs.evtsExt__URLTools__Redirect.func(runtimeScene, "https://www.instagram.com/samuelenocetoo_/", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+{gdjs.evtsExt__URLTools__Redirect.func(runtimeScene, "https://www.instagram.com/damn_ielaa/", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }}
 
 }
@@ -201,7 +201,7 @@ for (var i = 0, k = 0, l = gdjs.fineCode.GDlinkterzoObjects1.length;i<l;++i) {
 }
 gdjs.fineCode.GDlinkterzoObjects1.length = k;
 if (isConditionTrue_0) {
-{gdjs.evtsExt__URLTools__Redirect.func(runtimeScene, "https://www.instagram.com/nicolol._/", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+{gdjs.evtsExt__URLTools__Redirect.func(runtimeScene, "https://www.instagram.com/_dave_never_/", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }}
 
 }
