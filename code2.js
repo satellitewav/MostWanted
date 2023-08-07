@@ -61,7 +61,7 @@ gdjs.InizioCode.GDNewSprite2Objects3= [];
 gdjs.InizioCode.GDNewSprite2Objects4= [];
 
 
-gdjs.InizioCode.asyncCallback17159996 = function (runtimeScene, asyncObjectsList) {
+gdjs.InizioCode.asyncCallback18368372 = function (runtimeScene, asyncObjectsList) {
 }
 gdjs.InizioCode.eventsList0 = function(runtimeScene) {
 
@@ -71,7 +71,7 @@ gdjs.InizioCode.eventsList0 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.InizioCode.asyncCallback17159996(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.InizioCode.asyncCallback18368372(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -100,7 +100,7 @@ if (isConditionTrue_0) {
 }{runtimeScene.getGame().getVariables().getFromIndex(1).setNumber(0);
 }{runtimeScene.getScene().getVariables().getFromIndex(0).getChild("name").setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)));
 }{runtimeScene.getScene().getVariables().getFromIndex(0).getChild("score").setNumber(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(1)));
-}{gdjs.evtTools.firebaseTools.firestore.writeDocument("players2", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)), runtimeScene.getScene().getVariables().getFromIndex(0), runtimeScene.getScene().getVariables().get("ok"));
+}{gdjs.evtTools.firebaseTools.firestore.writeDocument("players3", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)), runtimeScene.getScene().getVariables().getFromIndex(0), runtimeScene.getScene().getVariables().get("ok"));
 }{runtimeScene.getGame().getVariables().getFromIndex(3).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)));
 }{gdjs.evtTools.storage.writeStringInJSONFile("Memoria", "nome", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)));
 }{gdjs.evtTools.storage.writeNumberInJSONFile("Memoria", "record", 0);
@@ -162,7 +162,7 @@ if (isConditionTrue_0)
 }
 
 
-};gdjs.InizioCode.asyncCallback17164756 = function (runtimeScene, asyncObjectsList) {
+};gdjs.InizioCode.asyncCallback18373476 = function (runtimeScene, asyncObjectsList) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Gioco", true);
 }
 { //Subevents
@@ -176,7 +176,7 @@ gdjs.InizioCode.eventsList3 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.8), (runtimeScene) => (gdjs.InizioCode.asyncCallback17164756(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.8), (runtimeScene) => (gdjs.InizioCode.asyncCallback18373476(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -259,10 +259,48 @@ gdjs.copyArray(runtimeScene.getObjects("usrn"), gdjs.InizioCode.GDusrnObjects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
+{isConditionTrue_0 = (gdjs.evtTools.window.getWindowInnerHeight() > gdjs.evtTools.window.getWindowInnerWidth());
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18151084);
+}
+}
+if (isConditionTrue_0) {
+{gdjs.evtsExt__Iframe__Create.func(runtimeScene, "classifica", "/MostWanted/endgame.html", 400, 300, 0, 440, false, false, "", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (gdjs.evtTools.window.getWindowInnerHeight() < gdjs.evtTools.window.getWindowInnerWidth());
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20065132);
+}
+}
+if (isConditionTrue_0) {
+{gdjs.evtsExt__Iframe__Delete.func(runtimeScene, "classifica", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(2)) == 0;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17152660);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18360684);
 }
 }
 if (isConditionTrue_0) {
@@ -358,7 +396,7 @@ for (var i = 0, k = 0, l = gdjs.InizioCode.GDticketObjects1.length;i<l;++i) {
 gdjs.InizioCode.GDticketObjects1.length = k;
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.analytics.log("click su ticket", "");
-}{gdjs.evtsExt__URLTools__Redirect.func(runtimeScene, "https://www.eventbrite.com/e/biglietti-most-wanted-act-02-satellite-showcase-645302516197?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=escb", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{gdjs.evtsExt__URLTools__Redirect.func(runtimeScene, "https://www.eventbrite.com/e/biglietti-most-wanted-act03-satellite-showcase-689301237557", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }}
 
 }
@@ -380,7 +418,8 @@ for (var i = 0, k = 0, l = gdjs.InizioCode.GDGIOCAObjects1.length;i<l;++i) {
 gdjs.InizioCode.GDGIOCAObjects1.length = k;
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("usrn"), gdjs.InizioCode.GDusrnObjects1);
-{gdjs.evtTools.firebaseTools.analytics.log("avvio da home", "");
+{gdjs.evtsExt__Iframe__Delete.func(runtimeScene, "classifica", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{gdjs.evtTools.firebaseTools.analytics.log("avvio da home", "");
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setString((( gdjs.InizioCode.GDusrnObjects1.length === 0 ) ? "" :gdjs.InizioCode.GDusrnObjects1[0].getString()));
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setString(gdjs.evtsExt__InputValidation__ToAlphanumerical.func(runtimeScene, gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
 }
@@ -446,7 +485,7 @@ isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getGam
 }
 if (isConditionTrue_0) {
 /* Reuse gdjs.InizioCode.GDGIOCAObjects1 */
-{gdjs.evtTools.firebaseTools.firestore.startQuery("ControlloUtente", "players2");
+{gdjs.evtTools.firebaseTools.firestore.startQuery("ControlloUtente", "players3");
 }{gdjs.evtTools.firebaseTools.firestore.queryWhere("ControlloUtente", "name", "==", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)));
 }{gdjs.evtTools.firebaseTools.firestore.watchQuery("ControlloUtente", runtimeScene.getScene().getVariables().get("risultato"), runtimeScene.getScene().getVariables().get("stato"));
 }{for(var i = 0, len = gdjs.InizioCode.GDGIOCAObjects1.length ;i < len;++i) {

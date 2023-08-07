@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__URLTools__Redirect !== "undefined") {
 gdjs.evtsExt__URLTools__Redirect = {};
 
 
-gdjs.evtsExt__URLTools__Redirect.userFunc0x1438960 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__URLTools__Redirect.userFunc0x1090648 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 window.location.href = eventsFunctionContext.getArgument("to");
 console.log("redirect");
@@ -18,7 +18,7 @@ gdjs.evtsExt__URLTools__Redirect.eventsList0 = function(runtimeScene, eventsFunc
 {
 
 
-gdjs.evtsExt__URLTools__Redirect.userFunc0x1438960(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__URLTools__Redirect.userFunc0x1090648(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

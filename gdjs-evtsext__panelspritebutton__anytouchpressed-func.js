@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__PanelSpriteButton__AnyTouchPressed !== "undefined") {
 gdjs.evtsExt__PanelSpriteButton__AnyTouchPressed = {};
 
 
-gdjs.evtsExt__PanelSpriteButton__AnyTouchPressed.userFunc0xfad188 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__PanelSpriteButton__AnyTouchPressed.userFunc0x18d9318 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = runtimeScene.getGame().getInputManager()._touches.firstKey() !== null;
 
@@ -18,7 +18,7 @@ gdjs.evtsExt__PanelSpriteButton__AnyTouchPressed.eventsList0 = function(runtimeS
 {
 
 
-gdjs.evtsExt__PanelSpriteButton__AnyTouchPressed.userFunc0xfad188(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__PanelSpriteButton__AnyTouchPressed.userFunc0x18d9318(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

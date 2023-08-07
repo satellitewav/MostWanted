@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__InputValidation__RemoveFirstLine !== "undefined") {
 gdjs.evtsExt__InputValidation__RemoveFirstLine = {};
 
 
-gdjs.evtsExt__InputValidation__RemoveFirstLine.userFunc0x1447610 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__InputValidation__RemoveFirstLine.userFunc0x16c7e80 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = eventsFunctionContext.getArgument("text").substring(eventsFunctionContext.getArgument("text").indexOf("\n") + 1);
 };
@@ -17,7 +17,7 @@ gdjs.evtsExt__InputValidation__RemoveFirstLine.eventsList0 = function(runtimeSce
 {
 
 
-gdjs.evtsExt__InputValidation__RemoveFirstLine.userFunc0x1447610(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__InputValidation__RemoveFirstLine.userFunc0x16c7e80(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

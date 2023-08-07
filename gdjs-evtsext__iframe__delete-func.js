@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__Iframe__Delete !== "undefined") {
 gdjs.evtsExt__Iframe__Delete = {};
 
 
-gdjs.evtsExt__Iframe__Delete.userFunc0x956cb0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Iframe__Delete.userFunc0x8c43a8 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 document.getElementById(eventsFunctionContext.getArgument("Name")).remove();
 };
@@ -17,7 +17,7 @@ gdjs.evtsExt__Iframe__Delete.eventsList0 = function(runtimeScene, eventsFunction
 {
 
 
-gdjs.evtsExt__Iframe__Delete.userFunc0x956cb0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Iframe__Delete.userFunc0x8c43a8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -29,7 +29,7 @@ gdjs.evtsExt__Iframe__Delete.userFunc0x956cb0(runtimeScene, typeof eventsFunctio
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13429060);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(9916948);
 }
 if (isConditionTrue_0) {
 
