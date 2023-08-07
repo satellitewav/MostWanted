@@ -267,7 +267,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{gdjs.evtsExt__Iframe__Create.func(runtimeScene, "classifica", "/MostWanted/endgame.html", 400, 300, 0, 440, false, false, "", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+{gdjs.evtsExt__Iframe__Create.func(runtimeScene, "classifica", "/MostWanted/endgame.html", 390, 300, 0, 360, false, false, "", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }}
 
 }
